@@ -1,0 +1,730 @@
+{
+  "downloaded": "2026-11-14",
+  "sources": {
+    "kanjivg": "https://github.com/KanjiVG/kanjivg",
+    "kanjidic2": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+  },
+  "kanjidic2ArchiveSHA256": "3f87d9388b1bcb6178576ad3812cdafe0055731bd5813c2089167dcd09de0b70",
+  "assets": [
+    {
+      "kanji": "日",
+      "file": "./risorse/kanjivg/065e5.svg",
+      "sha256": "e2b461dad3b8c2a7bb1a5b9318e83d90f44d9f62d903d4a27e5992e6469773b1",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/065e5.svg"
+    },
+    {
+      "kanji": "月",
+      "file": "./risorse/kanjivg/06708.svg",
+      "sha256": "c577d9e0fb74f01e63ebfa111c1f29834808d375391e32c2a7e0ee8592ae5524",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/06708.svg"
+    },
+    {
+      "kanji": "火",
+      "file": "./risorse/kanjivg/0706b.svg",
+      "sha256": "ad5412383753877b4428557883ccc19b6c70b1128a06168d49ad20e31ed645a2",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/0706b.svg"
+    },
+    {
+      "kanji": "水",
+      "file": "./risorse/kanjivg/06c34.svg",
+      "sha256": "17025cc265555ea3172b361fee740e58f178c7ed61fb7d1c7124175358f2d41e",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/06c34.svg"
+    },
+    {
+      "kanji": "木",
+      "file": "./risorse/kanjivg/06728.svg",
+      "sha256": "8ad9a1fa18fe9d0910db9686e7b05f11784650b46aec4795ac67696cc5197acd",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/06728.svg"
+    },
+    {
+      "kanji": "金",
+      "file": "./risorse/kanjivg/091d1.svg",
+      "sha256": "cc6324e83b4a751cb04050ca604571141e6ec3612ad83bbe2f05ef01864876e4",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/091d1.svg"
+    },
+    {
+      "kanji": "土",
+      "file": "./risorse/kanjivg/0571f.svg",
+      "sha256": "6f0d45e15f06fe5e9a0748d852d3c5a3c88b26852e1afc04c721424cd6547ea7",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/0571f.svg"
+    },
+    {
+      "kanji": "山",
+      "file": "./risorse/kanjivg/05c71.svg",
+      "sha256": "c6ad6253f1fcea28fd991af0e23c2ffe95858d073a03ea46354dc39516ad7aa7",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/05c71.svg"
+    },
+    {
+      "kanji": "川",
+      "file": "./risorse/kanjivg/05ddd.svg",
+      "sha256": "316788cc05f0516017c55e9bfa1d61b20e3fd5689f9e48e1f372cba212ae4bc5",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/05ddd.svg"
+    },
+    {
+      "kanji": "田",
+      "file": "./risorse/kanjivg/07530.svg",
+      "sha256": "a8c1dcb2c170383928bb9748ecd837dbcd0636d12d2e5d5f2f035755e1762d14",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/07530.svg"
+    },
+    {
+      "kanji": "人",
+      "file": "./risorse/kanjivg/04eba.svg",
+      "sha256": "0022556d593c1edf00e707f9c0bca1f1b6a531cf0a3a95ccade8931c31b4148d",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/04eba.svg"
+    },
+    {
+      "kanji": "口",
+      "file": "./risorse/kanjivg/053e3.svg",
+      "sha256": "4b0e8e8dde56d671ea38c2ea68a1aa57c301b127ee9c65151914858881b5c929",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/053e3.svg"
+    },
+    {
+      "kanji": "目",
+      "file": "./risorse/kanjivg/076ee.svg",
+      "sha256": "bc6761841e02e02698b3dd7dfa203fe2754f2859f67dfe50160ae9fdeb9bd39c",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/076ee.svg"
+    },
+    {
+      "kanji": "耳",
+      "file": "./risorse/kanjivg/08033.svg",
+      "sha256": "3f75d81f7e51ec1c49b1ea33a848c5da33554758db97cc273dcf9ca37368b7ce",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/08033.svg"
+    },
+    {
+      "kanji": "手",
+      "file": "./risorse/kanjivg/0624b.svg",
+      "sha256": "820e19f791de9706c6415d58c35a8e6f65504e25030fdf090367bb217d902c96",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/0624b.svg"
+    },
+    {
+      "kanji": "足",
+      "file": "./risorse/kanjivg/08db3.svg",
+      "sha256": "db49d20e4112092b60262b50398fe3280aba23222f3ef5132c068f588f072f08",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/08db3.svg"
+    },
+    {
+      "kanji": "力",
+      "file": "./risorse/kanjivg/0529b.svg",
+      "sha256": "07845a7eac68561725ab6809db657712e03d16ff9d9167f1ee2955f843e46604",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/0529b.svg"
+    },
+    {
+      "kanji": "男",
+      "file": "./risorse/kanjivg/07537.svg",
+      "sha256": "d817d29345fa070ce0d17e0533f8bb0b472a87c7053c46898f99e2875a220d50",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/07537.svg"
+    },
+    {
+      "kanji": "女",
+      "file": "./risorse/kanjivg/05973.svg",
+      "sha256": "79adc4f6cd011ebb732b87163f2dbaf093e520f5a7349398bd4fe7f0716d0b89",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/05973.svg"
+    },
+    {
+      "kanji": "子",
+      "file": "./risorse/kanjivg/05b50.svg",
+      "sha256": "02136167c108ed7e455e2708e01cd0ea4b89f69235cc95aac32bb0573cc0a509",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/05b50.svg"
+    },
+    {
+      "kanji": "父",
+      "file": "./risorse/kanjivg/07236.svg",
+      "sha256": "39f573b54ccee3d93e392f862835453160d730504f92021c7a4ca8d6afb7476b",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/07236.svg"
+    },
+    {
+      "kanji": "母",
+      "file": "./risorse/kanjivg/06bcd.svg",
+      "sha256": "346eedcb7b96c79f7e62feb3736a26173c5c54682a16cd8aee5d7cd21d6dbb5a",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/06bcd.svg"
+    },
+    {
+      "kanji": "友",
+      "file": "./risorse/kanjivg/053cb.svg",
+      "sha256": "09bead7c8b7d5c9f448f22acfadeb4e0b759d00f8b9bafdcc2c0b5ea6559265c",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/053cb.svg"
+    },
+    {
+      "kanji": "先",
+      "file": "./risorse/kanjivg/05148.svg",
+      "sha256": "09bcc04c66b2ad589dc19bfdbb256da81bd8b04d86fc206cf515b784b5d5914b",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/05148.svg"
+    },
+    {
+      "kanji": "生",
+      "file": "./risorse/kanjivg/0751f.svg",
+      "sha256": "fc70c42a1aae5583dfd13c497b8d271b4a7c494b106f8e6b5543cbc54441bb05",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/0751f.svg"
+    },
+    {
+      "kanji": "学",
+      "file": "./risorse/kanjivg/05b66.svg",
+      "sha256": "57ef5295a6f44d63fa45a33654bfd4be0b53a9d3a7204e86531ed9fb47af8a65",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/05b66.svg"
+    },
+    {
+      "kanji": "校",
+      "file": "./risorse/kanjivg/06821.svg",
+      "sha256": "b3a22720ca44fe8389062bd550cf4a83b8cc6847948a44f5d7c63c1bba86f4ea",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/06821.svg"
+    },
+    {
+      "kanji": "本",
+      "file": "./risorse/kanjivg/0672c.svg",
+      "sha256": "5b8f91858d37c8b97c9c81e8e1f60d039af2110492d65bc58af156e0a8215528",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/0672c.svg"
+    },
+    {
+      "kanji": "名",
+      "file": "./risorse/kanjivg/0540d.svg",
+      "sha256": "95574ac3cdfacbde4eca7627564ea855b6cd5fa4acc87a4d6260aa7448372bf9",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/0540d.svg"
+    },
+    {
+      "kanji": "字",
+      "file": "./risorse/kanjivg/05b57.svg",
+      "sha256": "a1142bba30e88b181fd2e84615d739a28d522e0b4cc1282cd4b72cd69c67255b",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/05b57.svg"
+    },
+    {
+      "kanji": "文",
+      "file": "./risorse/kanjivg/06587.svg",
+      "sha256": "74b878d1bc745809fc934c844cb133d45033f2dbfc830a6ae93add652d8846c6",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/06587.svg"
+    },
+    {
+      "kanji": "語",
+      "file": "./risorse/kanjivg/08a9e.svg",
+      "sha256": "d6cfb91c7a71ca3886ec59ba01ba48b975973e1256cfbfc1769b75b44d2dfd8c",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/08a9e.svg"
+    },
+    {
+      "kanji": "上",
+      "file": "./risorse/kanjivg/04e0a.svg",
+      "sha256": "cb85f5459cc82cbc900c3fee78a1a419b4b910cbd9816da2d1424419de3cabd2",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/04e0a.svg"
+    },
+    {
+      "kanji": "下",
+      "file": "./risorse/kanjivg/04e0b.svg",
+      "sha256": "93c13f7be9580adf48424c6578ac58e466e9f16bca819514a07224ff4e749603",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/04e0b.svg"
+    },
+    {
+      "kanji": "中",
+      "file": "./risorse/kanjivg/04e2d.svg",
+      "sha256": "535eced72b855b9c9a9b9817c438ca2c14f82352b83e137080e2e645cd3cf282",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/04e2d.svg"
+    },
+    {
+      "kanji": "外",
+      "file": "./risorse/kanjivg/05916.svg",
+      "sha256": "e0c7247af84ffa5198c97258a63fdec6c097530ea7698525452eee8c9bad5bc2",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/05916.svg"
+    },
+    {
+      "kanji": "右",
+      "file": "./risorse/kanjivg/053f3.svg",
+      "sha256": "0f188c7909e6e7dfc21d92879e758c59cbfad3423442cf199006dd42f106f46f",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/053f3.svg"
+    },
+    {
+      "kanji": "左",
+      "file": "./risorse/kanjivg/05de6.svg",
+      "sha256": "bb3e586c365b459adebfdfbdec655aad8625811d8f375471087609836fa9405b",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/05de6.svg"
+    },
+    {
+      "kanji": "前",
+      "file": "./risorse/kanjivg/0524d.svg",
+      "sha256": "a01c5bb3a33046d85bb73147ecaa0eb06e9281636643e775846412593d1175a9",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/0524d.svg"
+    },
+    {
+      "kanji": "後",
+      "file": "./risorse/kanjivg/05f8c.svg",
+      "sha256": "0e020bd9a1c567fcaa257fab34653fab47e5178e92365741dfe572279ea0bead",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/05f8c.svg"
+    },
+    {
+      "kanji": "北",
+      "file": "./risorse/kanjivg/05317.svg",
+      "sha256": "8b17232253e1a6f62d29893809676314bbe9d731a9a8b6cca0075066b3530eba",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/05317.svg"
+    },
+    {
+      "kanji": "南",
+      "file": "./risorse/kanjivg/05357.svg",
+      "sha256": "bafb63f54269f2f69a83aaa2cdb4e57a697bc6091048c6d0ce751bb5414c6947",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/05357.svg"
+    },
+    {
+      "kanji": "東",
+      "file": "./risorse/kanjivg/06771.svg",
+      "sha256": "aaa70bcb9f9bf30a391d2db7375f71e8e76e705cc3846b29125d3de2a271eef7",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/06771.svg"
+    },
+    {
+      "kanji": "西",
+      "file": "./risorse/kanjivg/0897f.svg",
+      "sha256": "db0df9726b81202a040f3c8e550528b19336fd34f75820c58010fe985274193c",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/0897f.svg"
+    },
+    {
+      "kanji": "大",
+      "file": "./risorse/kanjivg/05927.svg",
+      "sha256": "f0c66786a7c60ef02d7309ff90b4580c3ed0034dc629cedd0f4e2e5c06549eac",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/05927.svg"
+    },
+    {
+      "kanji": "小",
+      "file": "./risorse/kanjivg/05c0f.svg",
+      "sha256": "152a9d3087c441df1dbdc21bf4b1e81938f51cd3a8215b03827d079db18abf09",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/05c0f.svg"
+    },
+    {
+      "kanji": "多",
+      "file": "./risorse/kanjivg/0591a.svg",
+      "sha256": "f19d04500c08f4f4fa5722dc772ad3a1c0b6eb83799ed8fedfdb689d23779df5",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/0591a.svg"
+    },
+    {
+      "kanji": "少",
+      "file": "./risorse/kanjivg/05c11.svg",
+      "sha256": "11b32e43f7f04a8848e8d2ac02d2f5bcd35219471fbade388e7606a50abcda61",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/05c11.svg"
+    },
+    {
+      "kanji": "新",
+      "file": "./risorse/kanjivg/065b0.svg",
+      "sha256": "0d3756e07992db131f74953b4f66159b9a0949d5853b12d0de28680a6ba3b60e",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/065b0.svg"
+    },
+    {
+      "kanji": "古",
+      "file": "./risorse/kanjivg/053e4.svg",
+      "sha256": "a1233d4a91d3dc925bbc6976ae47a91dc414af80e1b36a8d53655b6391286aff",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/053e4.svg"
+    },
+    {
+      "kanji": "高",
+      "file": "./risorse/kanjivg/09ad8.svg",
+      "sha256": "df40e38dfaae0205dff69c2af404851a9b5d4806528453d481aa0b17099c5107",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/09ad8.svg"
+    },
+    {
+      "kanji": "安",
+      "file": "./risorse/kanjivg/05b89.svg",
+      "sha256": "2dff2e544150fad00e69b90ab25fa02e65324fb0ac31e40e1fd11bfcba8a4e4a",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/05b89.svg"
+    },
+    {
+      "kanji": "長",
+      "file": "./risorse/kanjivg/09577.svg",
+      "sha256": "c9e0ad6d0c686f443d739de74b68b3c799c7361a6087e0157eea162769c3f918",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/09577.svg"
+    },
+    {
+      "kanji": "白",
+      "file": "./risorse/kanjivg/0767d.svg",
+      "sha256": "8f6de4d8ca1c7811afc753446676b07ec7c6a0f71e4c31c185d748f0d9bcccb1",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/0767d.svg"
+    },
+    {
+      "kanji": "百",
+      "file": "./risorse/kanjivg/0767e.svg",
+      "sha256": "41acf79d8c26d02c8db6079c1078bc3a629389516b4910bd60b724be98f6e0ac",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/0767e.svg"
+    },
+    {
+      "kanji": "千",
+      "file": "./risorse/kanjivg/05343.svg",
+      "sha256": "2fe3ac7cf3f0223fb23a273fd43e38ddccbdc286cdc556fa97eaf4db3cc8c287",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/05343.svg"
+    },
+    {
+      "kanji": "万",
+      "file": "./risorse/kanjivg/04e07.svg",
+      "sha256": "f039e44492dcebcf243dad793a9c78e649e1851edff06e7125445629dca1ff98",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/04e07.svg"
+    },
+    {
+      "kanji": "円",
+      "file": "./risorse/kanjivg/05186.svg",
+      "sha256": "ebb1cbfc799c651ddeca0f1c63c4de383a725b6a5f1b9546fbf62b5826926a31",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/05186.svg"
+    },
+    {
+      "kanji": "年",
+      "file": "./risorse/kanjivg/05e74.svg",
+      "sha256": "b001e2335b27a552f46597258d9647d91d5c1566d9b2cb9e90fad8f34ab47a48",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/05e74.svg"
+    },
+    {
+      "kanji": "時",
+      "file": "./risorse/kanjivg/06642.svg",
+      "sha256": "60cf47d21e23a15ac8f9c83603e1789be9a3a4e37371f8f5290b0f170973ec6d",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/06642.svg"
+    },
+    {
+      "kanji": "分",
+      "file": "./risorse/kanjivg/05206.svg",
+      "sha256": "7f35124e1d19f45141fa626534463505161ec1a01650f12674e91a74163e56bc",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/05206.svg"
+    },
+    {
+      "kanji": "半",
+      "file": "./risorse/kanjivg/0534a.svg",
+      "sha256": "097f245bdc2aec70b684b196b6cb16b9f0f4f0bbcec8aa5a6ea09a9a74fb5173",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/0534a.svg"
+    },
+    {
+      "kanji": "今",
+      "file": "./risorse/kanjivg/04eca.svg",
+      "sha256": "c2fbf55f7fe19213cc77b37ef74eef697871286851b155e9e0df5fac0d06aa1f",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/04eca.svg"
+    },
+    {
+      "kanji": "毎",
+      "file": "./risorse/kanjivg/06bce.svg",
+      "sha256": "8c7eeef5307f7a675c3f6510b6609d94741751b2d18d6de2cd1935ec962524f4",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/06bce.svg"
+    },
+    {
+      "kanji": "何",
+      "file": "./risorse/kanjivg/04f55.svg",
+      "sha256": "c4cb0c8ff921fed54ea1e05a328a734822db7783ba28aa50770369e8251b713b",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/04f55.svg"
+    },
+    {
+      "kanji": "行",
+      "file": "./risorse/kanjivg/0884c.svg",
+      "sha256": "d2b00d9b528cf08c7c9060a58f26ddb153e02f47dd5af763cd3e1b9ee0a42974",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/0884c.svg"
+    },
+    {
+      "kanji": "来",
+      "file": "./risorse/kanjivg/06765.svg",
+      "sha256": "f08da7f5b75d490dd33a0970563cfe9028e467f7335e773ea826762a9822e702",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/06765.svg"
+    },
+    {
+      "kanji": "帰",
+      "file": "./risorse/kanjivg/05e30.svg",
+      "sha256": "1f9b8d1092fccccd4a7e7e3012e185c8aa6578ca1e5dee46831a0bf4850bbe31",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/05e30.svg"
+    },
+    {
+      "kanji": "食",
+      "file": "./risorse/kanjivg/098df.svg",
+      "sha256": "9ee066677123fa15fcdc3591525c1da90f9a14aaee57d4a56d31c9fb3270a94c",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/098df.svg"
+    },
+    {
+      "kanji": "飲",
+      "file": "./risorse/kanjivg/098f2.svg",
+      "sha256": "4dbcf59b66110fd64acd3ed596e261885f3d008ee93714d62b390da38e6c5e11",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/098f2.svg"
+    },
+    {
+      "kanji": "見",
+      "file": "./risorse/kanjivg/0898b.svg",
+      "sha256": "eecab39e4cb65d1711d3e1e431dcc427e9fee9cafea8af259defe1568ea3c3a9",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/0898b.svg"
+    },
+    {
+      "kanji": "聞",
+      "file": "./risorse/kanjivg/0805e.svg",
+      "sha256": "57845cec420c337f86522e2b4a7284a5cd8c10796254f7f161d0a6453fc413df",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/0805e.svg"
+    },
+    {
+      "kanji": "読",
+      "file": "./risorse/kanjivg/08aad.svg",
+      "sha256": "f4969a80b133b1112eae12993b6dc3b7a70a43d6db07c233c902dafaf19c2593",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/08aad.svg"
+    },
+    {
+      "kanji": "書",
+      "file": "./risorse/kanjivg/066f8.svg",
+      "sha256": "4b771a57c822da59aae610b765b66c71b878e93bf84750bda5e82e7ef0491b9f",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/066f8.svg"
+    },
+    {
+      "kanji": "話",
+      "file": "./risorse/kanjivg/08a71.svg",
+      "sha256": "2a4556d82072466aa35680e76752beb9273c62f615699606465ee459044c0494",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/08a71.svg"
+    },
+    {
+      "kanji": "買",
+      "file": "./risorse/kanjivg/08cb7.svg",
+      "sha256": "a8668adf6c3b9980249db2868131c4b8d4b563cb550266485d7c2fd30ee94cd8",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/08cb7.svg"
+    },
+    {
+      "kanji": "休",
+      "file": "./risorse/kanjivg/04f11.svg",
+      "sha256": "be956019696c26e090b62cc30f9eeece24cc6134bbc4282ca6d7754a1d3c73c1",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/04f11.svg"
+    },
+    {
+      "kanji": "入",
+      "file": "./risorse/kanjivg/05165.svg",
+      "sha256": "8643a6c320d581a984a9b1a4eaa7e70f6b83eb24186dbec72ad2aef581166c2b",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/05165.svg"
+    },
+    {
+      "kanji": "出",
+      "file": "./risorse/kanjivg/051fa.svg",
+      "sha256": "c6cb016234623dcd9432384bc924023f406cb35df2e520e0eb877dc3035958f2",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/051fa.svg"
+    },
+    {
+      "kanji": "立",
+      "file": "./risorse/kanjivg/07acb.svg",
+      "sha256": "8340ea8711a57002db3dc3dd04d4d64bf3e7e93d9119c1d95565fbf38fb533c2",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/07acb.svg"
+    },
+    {
+      "kanji": "会",
+      "file": "./risorse/kanjivg/04f1a.svg",
+      "sha256": "9736942c2647fa9d4f926d56a82eab813165a2e64c32820f566513a00a70e2fc",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/04f1a.svg"
+    },
+    {
+      "kanji": "社",
+      "file": "./risorse/kanjivg/0793e.svg",
+      "sha256": "6546de28b743a423685292e19810a3de7df1dfef40f4161a6c2647e9befb3cf9",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/0793e.svg"
+    },
+    {
+      "kanji": "店",
+      "file": "./risorse/kanjivg/05e97.svg",
+      "sha256": "86de6ccfd4c835a9840cfd5816cf4ba318266bce0a064a24bb8b9d310909d6a1",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/05e97.svg"
+    },
+    {
+      "kanji": "駅",
+      "file": "./risorse/kanjivg/099c5.svg",
+      "sha256": "a3eec84d7f07d22db7b6f81725ddb52d1a1395b8fb25d5a93d910ed83731e559",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/099c5.svg"
+    },
+    {
+      "kanji": "車",
+      "file": "./risorse/kanjivg/08eca.svg",
+      "sha256": "1b9d847cf86b897afd0bf64a73e9b7447784ef1f7a39e253dca61b0f6ad7aac5",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/08eca.svg"
+    },
+    {
+      "kanji": "電",
+      "file": "./risorse/kanjivg/096fb.svg",
+      "sha256": "ae00c7f1dd52a61d40f507f257bf400fc21aabcd52675a83d412930feebab92f",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/096fb.svg"
+    },
+    {
+      "kanji": "天",
+      "file": "./risorse/kanjivg/05929.svg",
+      "sha256": "20f9589bc78b152cedb87c7c6cd331a467563705ee884294e0aff2aeea418458",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/05929.svg"
+    },
+    {
+      "kanji": "気",
+      "file": "./risorse/kanjivg/06c17.svg",
+      "sha256": "4f1c90f7afbe76df62a58561155f35eea077f53b45d3914d04e368ffa2044702",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/06c17.svg"
+    },
+    {
+      "kanji": "雨",
+      "file": "./risorse/kanjivg/096e8.svg",
+      "sha256": "040a7401a82f5408f63dbd0cdab266b8229940768a22f628d35dbe736f0235a0",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/096e8.svg"
+    },
+    {
+      "kanji": "空",
+      "file": "./risorse/kanjivg/07a7a.svg",
+      "sha256": "c2613d7b8db35b9ad053b9708dd6888af9abe2bbe3ce09dd5ceca322fd6d8b21",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/07a7a.svg"
+    },
+    {
+      "kanji": "一",
+      "file": "./risorse/kanjivg/04e00.svg",
+      "sha256": "3dd10544e685a2e06184ca52ac2df5d881d4b92b566b94ada976f48d9e3625e4",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/04e00.svg"
+    },
+    {
+      "kanji": "二",
+      "file": "./risorse/kanjivg/04e8c.svg",
+      "sha256": "1c7d7dc8debe863606adc2669eac3daf0adc17b10442bd3d370a0c2697dc52a7",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/04e8c.svg"
+    },
+    {
+      "kanji": "三",
+      "file": "./risorse/kanjivg/04e09.svg",
+      "sha256": "0dbc281bfc51519d2f720e2c105708f4a522951c90209854352a7d2ce221cc85",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/04e09.svg"
+    },
+    {
+      "kanji": "四",
+      "file": "./risorse/kanjivg/056db.svg",
+      "sha256": "07c7af14bb2bb4c13c14800985cdcf155d400b87a75e5bb198d0b574612c08b0",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/056db.svg"
+    },
+    {
+      "kanji": "五",
+      "file": "./risorse/kanjivg/04e94.svg",
+      "sha256": "54867e1083d44b300f1e9d15731da6872100b1d6740ad0c6598be9d5e166bb4f",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/04e94.svg"
+    },
+    {
+      "kanji": "六",
+      "file": "./risorse/kanjivg/0516d.svg",
+      "sha256": "ed25f8296125b2d214d839f42ea344f5ae20b0aa1f770af2e57f625a22c5b4e1",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/0516d.svg"
+    },
+    {
+      "kanji": "七",
+      "file": "./risorse/kanjivg/04e03.svg",
+      "sha256": "244906b59477278c19d376a10eab20c3b0894b3c990717dee0016a0efc22e30c",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/04e03.svg"
+    },
+    {
+      "kanji": "八",
+      "file": "./risorse/kanjivg/0516b.svg",
+      "sha256": "e40349b20ec3cec35690079ea3cf065d69eceed283eb53c064a7714d1acc4109",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/0516b.svg"
+    },
+    {
+      "kanji": "九",
+      "file": "./risorse/kanjivg/04e5d.svg",
+      "sha256": "97db699c444567dcf88a886b8b6f58cf254f6880a9592d7404b04049dc6d8cf6",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/04e5d.svg"
+    },
+    {
+      "kanji": "十",
+      "file": "./risorse/kanjivg/05341.svg",
+      "sha256": "3a949bec637d519d51c89d2720cc4db11d7e645f4573b93aee8ecf0e316e9daa",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/05341.svg"
+    },
+    {
+      "kanji": "犬",
+      "file": "./risorse/kanjivg/072ac.svg",
+      "sha256": "6a4dd08801e607b00e49905db253159c25c064445668d4463f49fe937dd616a7",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/072ac.svg"
+    },
+    {
+      "kanji": "猫",
+      "file": "./risorse/kanjivg/0732b.svg",
+      "sha256": "237fc454b47486282ff0caf947a87be9a3311ed34543c4fa57456ff64f8e7b4a",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/0732b.svg"
+    },
+    {
+      "kanji": "魚",
+      "file": "./risorse/kanjivg/09b5a.svg",
+      "sha256": "0a7a54a98df30902bbda2e46da145c9a55aa23faf9b3227781f10fec57bbf77a",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/09b5a.svg"
+    },
+    {
+      "kanji": "花",
+      "file": "./risorse/kanjivg/082b1.svg",
+      "sha256": "b5bf5496057c317fd2abb7954fe60abd194e5dbea2bd7a614db5290106aa129d",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/082b1.svg"
+    },
+    {
+      "kanji": "町",
+      "file": "./risorse/kanjivg/0753a.svg",
+      "sha256": "72b974aa29d61cfdb76abfffb22e35eb4a8d242e47c9e9954c7da7cf40cb17f3",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/0753a.svg"
+    },
+    {
+      "kanji": "村",
+      "file": "./risorse/kanjivg/06751.svg",
+      "sha256": "5e21663e3749a54887a55172c4cd589eb548194724e535032b5b96ac250f4902",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/06751.svg"
+    },
+    {
+      "kanji": "森",
+      "file": "./risorse/kanjivg/068ee.svg",
+      "sha256": "a6a066aa5824d08f01a00f86c996fe22cc499abcb41ba6fc32628b3785ea8e51",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/068ee.svg"
+    },
+    {
+      "kanji": "林",
+      "file": "./risorse/kanjivg/06797.svg",
+      "sha256": "fb69cdedd8e29005d076ecab3c64496cde1e6285f3e408f1157cde88f7212d64",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/06797.svg"
+    },
+    {
+      "kanji": "夕",
+      "file": "./risorse/kanjivg/05915.svg",
+      "sha256": "220b9fdf16598009b3beec395ca85a954a700e09698b2193d953763f81b97b50",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/05915.svg"
+    },
+    {
+      "kanji": "石",
+      "file": "./risorse/kanjivg/077f3.svg",
+      "sha256": "fba483babf0ef74c3a1271683e99b5ec849ffed34377310855c67fe7096d20ad",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/077f3.svg"
+    },
+    {
+      "kanji": "赤",
+      "file": "./risorse/kanjivg/08d64.svg",
+      "sha256": "66a4d91976150acacc40b465554433504c3ddc8c795e24a84971c64b9aef6359",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/08d64.svg"
+    },
+    {
+      "kanji": "青",
+      "file": "./risorse/kanjivg/09752.svg",
+      "sha256": "d6b31f3d99989165e7bab430da299b594835a53b254c41725b5d7fb640c1540d",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/09752.svg"
+    },
+    {
+      "kanji": "音",
+      "file": "./risorse/kanjivg/097f3.svg",
+      "sha256": "0c85bed00e828deb6531351d78d9e110ec4e2ebf30e8bf6ccfc5f433538127ce",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/097f3.svg"
+    },
+    {
+      "kanji": "正",
+      "file": "./risorse/kanjivg/06b63.svg",
+      "sha256": "0ec3a6e96361b0b0db81c4108d9c2d558586cd0670247530781205f1b9bbe77e",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/06b63.svg"
+    },
+    {
+      "kanji": "玉",
+      "file": "./risorse/kanjivg/07389.svg",
+      "sha256": "f5537c53814f26cdda3a50eefc4edbe226c9fb62c72673f4051c55c604a58886",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/07389.svg"
+    },
+    {
+      "kanji": "王",
+      "file": "./risorse/kanjivg/0738b.svg",
+      "sha256": "a0852f2d97056c8dd1f762bec6f0a11e1dda101a07be8dcc0a18da84eebbde37",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/0738b.svg"
+    },
+    {
+      "kanji": "糸",
+      "file": "./risorse/kanjivg/07cf8.svg",
+      "sha256": "fbb6a9193438b44b889e7d8a5412a696cb1f78c0495dc60cbe155797c81a6dc5",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/07cf8.svg"
+    },
+    {
+      "kanji": "貝",
+      "file": "./risorse/kanjivg/08c9d.svg",
+      "sha256": "eadbd28d49acab10d2e4ffffab49bccb1ed6172345225dd8f106ab2abb72126b",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/08c9d.svg"
+    },
+    {
+      "kanji": "竹",
+      "file": "./risorse/kanjivg/07af9.svg",
+      "sha256": "3e059140694a6900ee2775b9e7a782617b6f327945752ce4e374931c7bf8d122",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/07af9.svg"
+    },
+    {
+      "kanji": "草",
+      "file": "./risorse/kanjivg/08349.svg",
+      "sha256": "f3be8d3fb89b407a595ef4d669fd43cae5092d46f9f0aaf2eb9e5751621a4d79",
+      "upstream": "https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/08349.svg"
+    }
+  ]
+}

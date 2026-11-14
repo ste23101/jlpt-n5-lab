@@ -1,0 +1,13 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+import {dex} from '../kanji-dex.js';
+import {kanjiQuestions,radicalQuestions} from '../quest.js';
+import {reward,experience,evaluateArea,streak,validQuest} from '../game-core.js';
+import {validState} from '../core.js';
+test('120 schede complete: tratti locali, hash, mnemoniche e radicali coerenti',()=>{assert.equal(dex.length,120);assert.equal(new Set(dex.map(c=>c.id)).size,120);assert.equal(dex.filter(c=>c.group==='fondamentali').length,100);for(const c of dex){assert.ok(c.mnemonic.length>25,c.word);assert.ok(c.radicalName&&c.example.reading,c.word);assert.equal(c.paths.length,c.strokes,c.word);const svg=fs.readFileSync(new URL('../'+c.svg,import.meta.url));assert.equal(crypto.createHash('sha256').update(svg).digest('hex'),c.sha256,c.word);}});
+test('sfide di kanji e radicali: opzioni e risposte univoche',()=>{for(const q of [...kanjiQuestions(),...radicalQuestions()]){assert.equal(q.options.length,4,q.id);assert.equal(new Set(q.options).size,4,q.id);assert.ok(q.options.includes(q.answer),q.id);}});
+test('XP: niente doppio premio per stessa azione nella giornata',()=>{const s={},d=new Date(2026,10,14,12);assert.ok(reward(s,'card-j1',3,d));assert.equal(reward(s,'card-j1',3,d),false);assert.equal(experience(s),3);reward(s,'card-j1',3,new Date(2026,10,15,12));assert.equal(experience(s),6);assert.equal(streak(s,new Date(2026,10,15,12)),2);assert.equal(streak(s,new Date(2026,10,17,12)),0);});
+test('valutazione: una risposta per domanda, campione ridotto distinto da buona base',()=>{assert.equal(evaluateArea({},'kanji').score,null);const answers={};for(let i=0;i<10;i++)answers['q'+i]={category:'kanji',correct:i<8,date:'2026-11-14'};assert.deepEqual(evaluateArea(answers,'kanji'),{n:10,correct:8,score:80,label:'Buona base'});answers.q0.correct=false;assert.equal(evaluateArea(answers,'kanji').score,70);assert.equal(evaluateArea(answers,'ascolto').n,0);});
+test('compatibilità backup e limiti per appunti, premi e risposte',()=>{const old={version:1,cards:{},weeks:[],sessions:[],errors:[],checks:[],exam:''};assert.ok(validState(old));reward(old,'x',3);assert.ok(validState(old));old.quest.notes['日']='<script>nota</script>';assert.ok(validState(old));old.quest.notes['日']='a'.repeat(1001);assert.ok(!validState(old));assert.ok(!validQuest({rewards:{x:100000},answers:{},notes:{},favorites:[]}));});

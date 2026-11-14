@@ -1,91 +1,99 @@
-# N5 Lab — JLPT N5 in italiano
+# Kanji Quest · Il tuo dojo per il JLPT N5
 
-Laboratorio statico per preparare il JLPT N5: percorso di studio, pratica attiva e risorse ufficiali. Progetto indipendente, non affiliato a Japan Foundation, JEES o JLPT. Non garantisce il superamento dell’esame.
+Un percorso di studio in italiano con schede kanji, componenti, storie mnemoniche, ripasso programmato, quiz e valutazioni. Tema giocoso con mappa, XP, livelli e medaglie: il gioco premia la costanza, mentre il rapporto per area misura gli esercizi svolti.
 
-## Cosa contiene
+## Apri il sito
 
-- Scrivania con routine quotidiana, riepilogo dei progressi e conto alla rovescia.
-- Piano in 12 tappe con checkpoint e data dell’esame personalizzabile.
-- **219 parole**, **208 carte kana** (hiragana, katakana, dakuten e combinazioni), **90 kanji** con esempi di lettura nelle parole.
-- Ripasso programmato: errore dopo 10 minuti, successo dopo 1 giorno, intervallo doppio fino a 30 giorni; pratica libera.
-- **35 schede di grammatica** spiegate in italiano.
-- **259 domande di lessico, grammatica e lettura**; quiz casuali, timer facoltativo, spiegazioni, correzione e ripasso degli errori.
-- **6 dialoghi originali** per l’ascolto con sintesi vocale giapponese, se installata sul dispositivo. La registrazione naturale resta disponibile tramite i link ufficiali.
-- Workbook ufficiali 2012 e 2018, timer separato 20/40/30 minuti e diario delle prove su carta.
-- Esportazione TSV per Anki; backup e ripristino JSON dei progressi.
-- Layout adattabile al telefono, navigazione da tastiera e foglio di stampa.
+**https://ste23101.github.io/jlpt-n5-lab/**
 
-La selezione è introduttiva e non costituisce una lista completa o ufficiale dei contenuti N5. Integrare con un corso completo e i workbook. Il JLPT non pubblica una lista esaustiva per il formato attuale.
+Progetto indipendente, non affiliato a JLPT, Japan Foundation o JEES. Il sito non garantisce il superamento dell’esame e non converte le percentuali dei quiz in punteggi ufficiali.
 
-## Avvio locale
+## Il Kanji Dex
 
-Servono Python 3 e un browser moderno. Non servono installazioni npm per usare il sito.
+**120 schede**, divise in 100 fondamentali e 20 di esplorazione. Sono una selezione didattica del progetto, non una lista ufficiale o esaustiva N5.
+
+Ogni scheda contiene:
+
+- significato in italiano, letture on/kun, parola d’esempio con lettura;
+- radicale classico di dizionario, numero Kangxi e varianti frequenti;
+- componenti grafici estratti dai diagrammi KanjiVG, distinti dal radicale;
+- mnemonica originale, esplicitamente presentata come storia inventata, non etimologia;
+- diagramma locale, animazione dei tratti, avanzamento per singolo tratto;
+- lavagna per tracciare a mano, con modello nascondibile (pratica libera, senza riconoscimento o voto automatico);
+- preferiti, appunti personali, ripasso programmato e verifica di significato/lettura.
+
+Sono inclusi fisicamente **120 SVG KanjiVG** e i metadati KANJIDIC2. Vedi [fonti e licenze](risorse/CREDITI.md). I dati originali sono stati estratti il 14 novembre 2026. Il manifest contiene gli SHA-256 dei diagrammi scaricati.
+
+## Studio e gioco
+
+- Mappa di 5 isole: numeri e tempo, natura e colori, persone e vita, viaggi e luoghi, scuola e azioni.
+- **240 domande kanji**, **75 sui radicali**, **219 di lessico**, **30 di grammatica**, **10 di lettura**, **6 dialoghi** originali: 580 quesiti complessivi.
+- Giardino delle coppie: 6 abbinamenti fra kanji e significati, nessun limite di tempo.
+- XP: +3 per carta valutata, +5 per risposta corretta, +10 per sessione completata per area, +15 per giardino completato. Ogni specifica azione assegna il premio una sola volta al giorno; le risposte corrette ripetute il giorno stesso non moltiplicano gli XP.
+- Livelli ogni 100 XP, serie di giorni di pratica e medaglie. Nessuna vita da perdere o contenuto bloccato.
+- 208 carte kana, 219 parole, 35 schede di grammatica in italiano.
+- Ripasso: errore dopo 10 minuti; successo dopo 1 giorno, poi intervallo doppio fino a 30 giorni. Le autovalutazioni delle carte misurano la familiarità dichiarata, non la preparazione verificata.
+- Timer dei quiz, correzioni motivate e ripasso degli errori, inclusi quelli dei kanji.
+
+## Valutazioni e piano dell’esame
+
+Il rapporto separa **kanji, radicali, lessico, grammatica, lettura e ascolto**. Per ogni area mostra risposte corrette, numero di domande distinte, percentuale e suggerimento di ripasso. Conta l’ultima risposta a ciascuna domanda: ripetere lo stesso quesito non aumenta la dimensione del campione. Le risposte non date in una sessione terminata contano come errori.
+
+Le etichette hanno queste regole: meno di 5 risposte “Da esplorare”; da 5 a 9 “Primi indizi”; da 10 risposte, sotto 60% “Da rinforzare”, 60–79% “In crescita”, almeno 80% “Buona base”. Sono fasce didattiche, non probabilità di promozione. I 6 dialoghi interni costituiscono un campione piccolo: usare anche registrazioni e prove ufficiali.
+
+Piano in 12 tappe con checkpoint, data personalizzabile e indicazioni per chi ha meno tempo. **L’utente ha indicato il 6 ottobre senza specificare l’anno**: il sito mostra questo obiettivo come “anno da confermare” finché non viene selezionata una data completa. Non inventa un conto alla rovescia. Il calendario ufficiale JLPT 2026 indica il 5 luglio e il **6 dicembre**: verificare la propria convocazione/organizzazione.
+
+## Risorse scaricabili incluse
+
+La sezione Inventario offre:
+
+- `risorse/quaderno-kanji.pdf` e versione HTML: 120 schede con griglie di scrittura;
+- `risorse/guida-esame.pdf` e versione HTML: metodo, 12 tappe, 35 regole, 40 esercizi originali con correzioni, foglio errori e checklist;
+- `risorse/kanji-anki.tsv`: fronte, retro con letture/radicale/mnemonica, tag; importare in Anki con tabulazioni e “Consenti HTML nei campi”;
+- `risorse/lessico-anki.tsv`: mazzo introduttivo italiano;
+- `risorse/kanji-base.csv`, `kanji-base.json`, SVG e licenze;
+- `risorse/pacchetto-studio.zip`: raccolta delle risorse, con attribuzioni.
+
+I PDF/audio ufficiali non sono redistribuiti: il sito collega i [workbook JLPT 2012 e 2018](https://www.jlpt.jp/e/samples/sampleindex.html), con audio, trascrizioni, soluzioni e fogli risposta. Timer separato per lessico (20 minuti), grammatica e lettura (40), ascolto (circa 30). Diario delle prove su carta e cronologia dei risultati.
+
+## Avvio e verifica
+
+Nessuna dipendenza npm, build, backend o API key. Python 3 e browser moderno:
 
 ```sh
-python3 -m http.server 4173
+npm start
 ```
 
-Aprire http://localhost:4173. Usare un server HTTP: i moduli JavaScript non sono pensati per l’apertura diretta con `file://`.
+Apri http://localhost:4173. Non usare `file://` per l’app: utilizza moduli JavaScript. I quaderni HTML in `risorse/` si possono invece aprire direttamente dal pacchetto estratto.
 
-## Verifica
-
-Con Node.js 22 o successivo:
+Controlli automatici con Node.js 22 o successivo:
 
 ```sh
 npm run check
 ```
 
-I test controllano integrità e unicità dei contenuti, opzioni dei quiz, ripasso programmato, validazione dei backup e neutralizzazione HTML. Per il controllo facoltativo nel browser: installare Python Playwright e Chromium; avviare il server locale e poi `python3 tests/browser_check.py`. La workflow GitHub esegue i controlli JavaScript a ogni push e pull request.
+I test verificano opzioni dei quiz, dati delle carte, file locali e hash, coerenza dei tratti, intervalli, premi giornalieri, streak, percentuali, compatibilità e limiti dei backup.
 
-## Pubblicazione su GitHub Pages
+Verifica facoltativa nel browser (Python Playwright e Chromium): avvia il server, poi `python3 tests/quest_browser.py`. Controlla anche filtri, schede, preferiti, appunti, animazioni, lavagna, quiz corretto 10/10, valutazione, gioco completato e layout a 1440/768/390 pixel. Genera anche i PDF dai quaderni HTML. La verifica generale precedente rimane in `tests/browser_check.py`.
 
-Il progetto usa solo HTML/CSS/JS con percorsi relativi: funziona anche sotto `/jlpt-n5-lab/`, senza build, backend, API key o database.
+## GitHub Pages
 
-Lo script crea una **nuova repository pubblica**, invia il commit locale e configura GitHub Pages da `main`, cartella `/`. Richiede Git, `gh` autenticato con permessi di creazione repository e amministrazione Pages. Prima va eseguito un commit locale.
+Il sito è statico, con percorsi relativi adatti a `/jlpt-n5-lab/`. Configurazione: **Settings → Pages → Deploy from a branch → main → /(root)**. `.nojekyll` disabilita l’elaborazione Jekyll. Lo script `scripts/publish.sh` gestisce la creazione iniziale e la prima pubblicazione; per aggiornare un sito già presente usa un normale commit e push al branch `main`.
 
-```sh
-gh auth login
-bash scripts/publish.sh
-```
+## Dati sul dispositivo
 
-Se la repository pubblica è già stata creata vuota sul proprio account, lo script la riutilizza dopo aver verificato che sia vuota. Rifiuta repository esistenti non vuote, account differenti, remoti inattesi e working tree con modifiche non salvate. È possibile specificare un altro nome: `bash scripts/publish.sh nome-repository`.
+Salvataggio nel browser in `localStorage` (`n5lab-v1`): progressi, valutazioni, appunti, preferiti e XP. Non c’è sincronizzazione fra dispositivi. Esportare/importare il JSON nella sezione Risorse. I backup precedenti restano compatibili; l’importazione valida i dati e chiede conferma prima di sostituirli. Nessun analytics. Font da Google Fonts con fallback locali. La sintesi vocale richiede una voce giapponese del sistema; disponibilità e trattamento dipendono dalla voce installata. In assenza di voce sono indicati gli audio ufficiali.
 
-Alternativa manuale:
+## Fonti d’esame
 
-1. Creare una repository pubblica e caricare i file nella radice del branch `main`.
-2. Aprire **Settings → Pages → Build and deployment**.
-3. Selezionare **Deploy from a branch → main → /(root)** e salvare.
-4. Attendere il deploy e aprire l’URL indicato da GitHub. Non basta creare la repository perché il sito sia pubblico.
+Verificate il 14 novembre 2026:
 
-Riferimento: [documentazione GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
-
-## Fonti e regole dell’esame
-
-Verificate il **14 novembre 2026**:
-
-- [Formato e tempi JLPT](https://www.jlpt.jp/e/guideline/testsections.html): N5 lessico 20 minuti, grammatica e lettura 40, ascolto circa 30; la durata dell’ascolto può variare.
-- [Soglie ufficiali](https://www.jlpt.jp/e/guideline/results.html): totale almeno 80/180; lingua e lettura almeno 38/120; ascolto almeno 19/60. Devono essere soddisfatte tutte le condizioni e vanno sostenute tutte le sezioni.
-- [FAQ JLPT](https://www.jlpt.jp/e/faq/index.html): punteggi calibrati e assenza di liste esaustive pubblicate di contenuti.
-- [Workbook ufficiali 2012 e 2018](https://www.jlpt.jp/e/samples/sampleindex.html): PDF, audio, fogli risposta, soluzioni e trascrizioni. I vecchi volumi precedono la variazione dei tempi del 2020.
-- [Domande di esempio](https://www.jlpt.jp/e/samples/forlearners.html): introduzione alle tipologie, non prova completa.
+- [Formato, tempi e calendario](https://www.jlpt.jp/e/guideline/testsections.html).
+- [Soglie](https://www.jlpt.jp/e/guideline/results.html): N5 totale almeno 80/180, lingua e lettura 38/120, ascolto 19/60; bisogna rispettare tutte le condizioni e sostenere tutte le sezioni.
+- [FAQ](https://www.jlpt.jp/e/faq/index.html): punteggi calibrati; nessuna lista completa ufficiale dei contenuti del formato attuale.
+- [Esempi ufficiali](https://www.jlpt.jp/e/samples/forlearners.html), [workbook](https://www.jlpt.jp/e/samples/sampleindex.html), [organizzatori e iscrizione](https://www.jlpt.jp/e/application/overseas_index.html).
 - [Irodori](https://www.irodori.jpf.go.jp/en/), [Minato](https://minato-jf.jp/), [Anki](https://apps.ankiweb.net/).
-- [Iscrizione e organizzatori locali](https://www.jlpt.jp/e/application/overseas_index.html).
 
-I quiz interni sono esercizi originali e mostrano percentuali grezze, **non punteggi JLPT su 180**. L’obiettivo didattico del 75% per area non è una soglia ufficiale né una previsione di promozione. Non vengono ripubblicati PDF o audio ufficiali protetti.
+## Licenze
 
-## Dati e limitazioni
-
-I progressi sono salvati in `localStorage`, separatamente per browser e origine; non si sincronizzano. Cancellare i dati del browser elimina i progressi: esportare il JSON. L’importazione valida il formato e chiede conferma prima di sostituire i dati. Non importare backup da fonti sconosciute.
-
-Nessun analytics o account. I font sono caricati da Google Fonts, con fallback locali. La sintesi vocale richiede una voce `ja-JP` o equivalente; disponibilità, qualità e trattamento dell’audio dipendono dal dispositivo e dalla voce. In assenza di voce il sito mostra un messaggio e rimanda alle registrazioni ufficiali. Il timer usa il tempo reale; cambiando sezione del sito viene azzerato.
-
-## Struttura
-
-- `index.html`, `style.css`: struttura e presentazione.
-- `data.js`: contenuti didattici originali.
-- `core.js`: funzioni pure (ripasso, quiz, validazione).
-- `app.js`: interazioni e salvataggio locale.
-- `tests/`: controlli automatici e verifica browser facoltativa.
-- `scripts/publish.sh`: creazione repository e configurazione Pages.
-
-Licenza MIT per il codice e i contenuti originali di questo progetto. Risorse esterne, nomi e marchi appartengono ai rispettivi titolari.
+Codice dell’app MIT. Dati e materiali derivati da KanjiVG e KANJIDIC2 hanno licenze separate: **CC BY-SA 3.0 per gli SVG originali KanjiVG**, **CC BY-SA 4.0 per gli estratti KANJIDIC2 e le schede aggregate adattate**. Il file LICENSE MIT non si applica ai materiali di terzi o ai dataset derivati: dettagli in [risorse/CREDITI.md](risorse/CREDITI.md). Marchi e materiali esterni appartengono ai rispettivi titolari.

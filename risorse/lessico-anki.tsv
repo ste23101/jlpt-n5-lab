@@ -1,0 +1,219 @@
+私	わたし — io	N5_persone
+あなた	あなた — tu	N5_persone
+人	ひと — persona	N5_persone
+男	おとこ — uomo	N5_persone
+女	おんな — donna	N5_persone
+子供	こども — bambino	N5_persone
+友達	ともだち — amico	N5_persone
+先生	せんせい — insegnante	N5_persone
+学生	がくせい — studente	N5_persone
+会社員	かいしゃいん — impiegato	N5_persone
+医者	いしゃ — medico	N5_persone
+家族	かぞく — famiglia	N5_persone
+父	ちち — mio padre	N5_persone
+母	はは — mia madre	N5_persone
+お父さん	おとうさん — papà / padre altrui	N5_persone
+お母さん	おかあさん — mamma / madre altrui	N5_persone
+兄	あに — mio fratello maggiore	N5_persone
+姉	あね — mia sorella maggiore	N5_persone
+弟	おとうと — fratello minore	N5_persone
+妹	いもうと — sorella minore	N5_persone
+名前	なまえ — nome	N5_persone
+日本	にほん — Giappone	N5_luoghi
+学校	がっこう — scuola	N5_luoghi
+大学	だいがく — università	N5_luoghi
+会社	かいしゃ — azienda	N5_luoghi
+駅	えき — stazione	N5_luoghi
+病院	びょういん — ospedale	N5_luoghi
+銀行	ぎんこう — banca	N5_luoghi
+郵便局	ゆうびんきょく — ufficio postale	N5_luoghi
+図書館	としょかん — biblioteca	N5_luoghi
+公園	こうえん — parco	N5_luoghi
+店	みせ — negozio	N5_luoghi
+部屋	へや — stanza	N5_luoghi
+家	いえ — casa	N5_luoghi
+国	くに — paese	N5_luoghi
+町	まち — cittadina	N5_luoghi
+道	みち — strada	N5_luoghi
+入口	いりぐち — entrata	N5_luoghi
+出口	でぐち — uscita	N5_luoghi
+食べる	たべる — mangiare	N5_verbi
+飲む	のむ — bere	N5_verbi
+行く	いく — andare	N5_verbi
+来る	くる — venire	N5_verbi
+帰る	かえる — tornare a casa	N5_verbi
+見る	みる — vedere	N5_verbi
+聞く	きく — ascoltare / chiedere	N5_verbi
+読む	よむ — leggere	N5_verbi
+書く	かく — scrivere	N5_verbi
+話す	はなす — parlare	N5_verbi
+買う	かう — comprare	N5_verbi
+会う	あう — incontrare	N5_verbi
+待つ	まつ — aspettare	N5_verbi
+持つ	もつ — tenere / portare	N5_verbi
+立つ	たつ — alzarsi / stare in piedi	N5_verbi
+座る	すわる — sedersi	N5_verbi
+寝る	ねる — dormire	N5_verbi
+起きる	おきる — svegliarsi	N5_verbi
+働く	はたらく — lavorare	N5_verbi
+休む	やすむ — riposare	N5_verbi
+勉強する	べんきょうする — studiare	N5_verbi
+する	する — fare	N5_verbi
+ある	ある — esserci (cose)	N5_verbi
+いる	いる — esserci (esseri animati)	N5_verbi
+分かる	わかる — capire	N5_verbi
+使う	つかう — usare	N5_verbi
+作る	つくる — preparare / costruire	N5_verbi
+泳ぐ	およぐ — nuotare	N5_verbi
+遊ぶ	あそぶ — giocare / divertirsi	N5_verbi
+歩く	あるく — camminare	N5_verbi
+走る	はしる — correre	N5_verbi
+入る	はいる — entrare	N5_verbi
+出る	でる — uscire	N5_verbi
+開ける	あける — aprire	N5_verbi
+閉める	しめる — chiudere	N5_verbi
+教える	おしえる — insegnare	N5_verbi
+習う	ならう — imparare	N5_verbi
+貸す	かす — dare in prestito	N5_verbi
+借りる	かりる — prendere in prestito	N5_verbi
+洗う	あらう — lavare	N5_verbi
+水	みず — acqua	N5_cibo
+お茶	おちゃ — tè	N5_cibo
+ご飯	ごはん — riso cotto / pasto	N5_cibo
+パン	パン — pane	N5_cibo
+肉	にく — carne	N5_cibo
+魚	さかな — pesce	N5_cibo
+野菜	やさい — verdura	N5_cibo
+果物	くだもの — frutta	N5_cibo
+卵	たまご — uovo	N5_cibo
+牛乳	ぎゅうにゅう — latte	N5_cibo
+朝ご飯	あさごはん — colazione	N5_cibo
+昼ご飯	ひるごはん — pranzo	N5_cibo
+晩ご飯	ばんごはん — cena	N5_cibo
+料理	りょうり — cucina / piatto	N5_cibo
+コーヒー	コーヒー — caffè	N5_cibo
+本	ほん — libro	N5_oggetti
+新聞	しんぶん — giornale	N5_oggetti
+雑誌	ざっし — rivista	N5_oggetti
+辞書	じしょ — dizionario	N5_oggetti
+机	つくえ — scrivania	N5_oggetti
+椅子	いす — sedia	N5_oggetti
+時計	とけい — orologio	N5_oggetti
+電話	でんわ — telefono	N5_oggetti
+電車	でんしゃ — treno	N5_oggetti
+車	くるま — automobile	N5_oggetti
+自転車	じてんしゃ — bicicletta	N5_oggetti
+飛行機	ひこうき — aeroplano	N5_oggetti
+傘	かさ — ombrello	N5_oggetti
+靴	くつ — scarpe	N5_oggetti
+服	ふく — vestiti	N5_oggetti
+鞄	かばん — borsa	N5_oggetti
+鉛筆	えんぴつ — matita	N5_oggetti
+紙	かみ — carta	N5_oggetti
+お金	おかね — denaro	N5_oggetti
+切符	きっぷ — biglietto	N5_oggetti
+写真	しゃしん — fotografia	N5_oggetti
+手紙	てがみ — lettera	N5_oggetti
+今日	きょう — oggi	N5_tempo
+明日	あした — domani	N5_tempo
+昨日	きのう — ieri	N5_tempo
+今	いま — adesso	N5_tempo
+毎日	まいにち — ogni giorno	N5_tempo
+朝	あさ — mattina	N5_tempo
+昼	ひる — mezzogiorno / giorno	N5_tempo
+夜	よる — notte	N5_tempo
+午前	ごぜん — prima di mezzogiorno	N5_tempo
+午後	ごご — dopo mezzogiorno	N5_tempo
+時間	じかん — tempo / ore	N5_tempo
+月曜日	げつようび — lunedì	N5_tempo
+火曜日	かようび — martedì	N5_tempo
+水曜日	すいようび — mercoledì	N5_tempo
+木曜日	もくようび — giovedì	N5_tempo
+金曜日	きんようび — venerdì	N5_tempo
+土曜日	どようび — sabato	N5_tempo
+日曜日	にちようび — domenica	N5_tempo
+今週	こんしゅう — questa settimana	N5_tempo
+先週	せんしゅう — settimana scorsa	N5_tempo
+来週	らいしゅう — settimana prossima	N5_tempo
+今年	ことし — quest'anno	N5_tempo
+去年	きょねん — anno scorso	N5_tempo
+来年	らいねん — anno prossimo	N5_tempo
+春	はる — primavera	N5_tempo
+夏	なつ — estate	N5_tempo
+秋	あき — autunno	N5_tempo
+冬	ふゆ — inverno	N5_tempo
+大きい	おおきい — grande	N5_aggettivi
+小さい	ちいさい — piccolo	N5_aggettivi
+新しい	あたらしい — nuovo	N5_aggettivi
+古い	ふるい — vecchio (cose)	N5_aggettivi
+高い	たかい — alto / costoso	N5_aggettivi
+安い	やすい — economico	N5_aggettivi
+低い	ひくい — basso	N5_aggettivi
+長い	ながい — lungo	N5_aggettivi
+短い	みじかい — corto	N5_aggettivi
+暑い	あつい — caldo (clima)	N5_aggettivi
+寒い	さむい — freddo (clima)	N5_aggettivi
+熱い	あつい — caldo (al tatto)	N5_aggettivi
+冷たい	つめたい — freddo (al tatto)	N5_aggettivi
+おいしい	おいしい — buono (sapore)	N5_aggettivi
+忙しい	いそがしい — impegnato	N5_aggettivi
+楽しい	たのしい — divertente	N5_aggettivi
+難しい	むずかしい — difficile	N5_aggettivi
+易しい	やさしい — facile	N5_aggettivi
+早い	はやい — presto	N5_aggettivi
+速い	はやい — veloce	N5_aggettivi
+遅い	おそい — tardi / lento	N5_aggettivi
+近い	ちかい — vicino	N5_aggettivi
+遠い	とおい — lontano	N5_aggettivi
+静か	しずか — tranquillo	N5_aggettivi
+元気	げんき — in salute / energico	N5_aggettivi
+好き	すき — gradito / che piace	N5_aggettivi
+嫌い	きらい — sgradito / che non piace	N5_aggettivi
+上手	じょうず — abile	N5_aggettivi
+下手	へた — poco abile	N5_aggettivi
+便利	べんり — comodo	N5_aggettivi
+きれい	きれい — bello / pulito	N5_aggettivi
+天気	てんき — tempo meteorologico	N5_natura
+雨	あめ — pioggia	N5_natura
+雪	ゆき — neve	N5_natura
+山	やま — montagna	N5_natura
+川	かわ — fiume	N5_natura
+海	うみ — mare	N5_natura
+空	そら — cielo	N5_natura
+花	はな — fiore	N5_natura
+木	き — albero	N5_natura
+犬	いぬ — cane	N5_natura
+猫	ねこ — gatto	N5_natura
+鳥	とり — uccello	N5_natura
+上	うえ — sopra	N5_posizione
+下	した — sotto	N5_posizione
+前	まえ — davanti / prima	N5_posizione
+後ろ	うしろ — dietro	N5_posizione
+中	なか — dentro	N5_posizione
+外	そと — fuori	N5_posizione
+右	みぎ — destra	N5_posizione
+左	ひだり — sinistra	N5_posizione
+隣	となり — accanto	N5_posizione
+ここ	ここ — qui	N5_posizione
+そこ	そこ — lì vicino a te	N5_posizione
+あそこ	あそこ — laggiù	N5_posizione
+どこ	どこ — dove	N5_domande
+何	なに — che cosa	N5_domande
+誰	だれ — chi	N5_domande
+いつ	いつ — quando	N5_domande
+いくら	いくら — quanto costa	N5_domande
+どうして	どうして — perché	N5_domande
+一	いち — uno	N5_numeri
+二	に — due	N5_numeri
+三	さん — tre	N5_numeri
+四	よん — quattro	N5_numeri
+五	ご — cinque	N5_numeri
+六	ろく — sei	N5_numeri
+七	なな — sette	N5_numeri
+八	はち — otto	N5_numeri
+九	きゅう — nove	N5_numeri
+十	じゅう — dieci	N5_numeri
+百	ひゃく — cento	N5_numeri
+千	せん — mille	N5_numeri
+万	まん — diecimila	N5_numeri
+半	はん — metà	N5_numeri
