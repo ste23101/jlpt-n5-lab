@@ -13,7 +13,7 @@ Le risposte sono state confrontate con la tabella ufficiale: 4,1,3,1,3,4,1,4,2,3
 
 ## Condizioni verificate il 14 novembre 2026
 
-La [Site Policy JLPT §1(4)](https://www.jlpt.jp/e/policy.html), conservata anche in `condizioni-JLPT.html`, concede in anticipo riproduzione e copia dei materiali per insegnamento del giapponese senza far pagare il materiale, indicando la fonte secondo §1(2)④. Questo sito non addebita costi per i quesiti riprodotti; l’attribuzione è visibile accanto a ogni quesito.
+La [Site Policy JLPT §1(4)](https://www.jlpt.jp/e/policy.html), conservata anche come copia statica in `condizioni-JLPT.html` (script di navigazione e analytics rimossi; testo delle condizioni invariato), concede in anticipo riproduzione e copia dei materiali per insegnamento del giapponese senza far pagare il materiale, indicando la fonte secondo §1(2)④. Questo sito non addebita costi per i quesiti riprodotti; l’attribuzione è visibile accanto a ogni quesito.
 
 La [pagina dei workbook](https://www.jlpt.jp/e/samples/sampleindex.html) specifica che alcuni quesiti di grammatica/lettura N1 e N2 e tutti gli audio N1–N5 contengono opere di terzi. Queste eccezioni non sono incluse nella selezione scritta N5 di questo progetto. Gli audio ufficiali non sono riprodotti, sintetizzati con altre voci né incorporati come file locali; si consultano dal sito dei titolari.
 
