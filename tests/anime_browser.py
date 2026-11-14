@@ -4,6 +4,18 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 class Quiet(http.server.SimpleHTTPRequestHandler):
  def log_message(self,*a):pass
+ def do_GET(self):
+  # Match GitHub Pages byte-range support: video seeking cannot be checked
+  # correctly with Python's default server, which ignores Range headers.
+  requested=self.headers.get('Range');path=Path(self.translate_path(self.path))
+  if not requested or not path.is_file():return super().do_GET()
+  size=path.stat().st_size;parts=requested.removeprefix('bytes=').split('-',1)
+  start=int(parts[0] or 0);end=min(int(parts[1]) if parts[1] else size-1,size-1)
+  self.send_response(206);self.send_header('Content-Type',self.guess_type(str(path)));self.send_header('Accept-Ranges','bytes');self.send_header('Content-Range',f'bytes {start}-{end}/{size}');self.send_header('Content-Length',str(end-start+1));self.end_headers()
+  try:
+   with path.open('rb') as stream:
+    stream.seek(start);self.wfile.write(stream.read(end-start+1))
+  except (BrokenPipeError,ConnectionResetError):pass
 root=Path(__file__).resolve().parent.parent
 server=http.server.ThreadingHTTPServer(('127.0.0.1',0),functools.partial(Quiet,directory=str(root)));threading.Thread(target=server.serve_forever,daemon=True).start();base=f'http://127.0.0.1:{server.server_port}/'
 with sync_playwright() as p:
@@ -13,6 +25,16 @@ with sync_playwright() as p:
  page.locator('#scene-play').click();page.wait_for_function('document.querySelector("#scene-video").currentTime>0.15');assert page.locator('#scene-video').evaluate('(v)=>!v.paused')
  page.locator('#scene-pause').click();assert page.locator('#scene-video').evaluate('(v)=>v.paused')
  page.locator('#scene-speed').select_option('0.75');assert abs(page.locator('#scene-video').evaluate('(v)=>v.playbackRate')-.75)<.02
+ # Seek each turn: speaker, still and video must agree with the original audio timeline.
+ for index,start in enumerate([0,2.926,5.042,7.393]):
+  target=start+.15
+  page.locator('#scene-audio').evaluate('(a,t)=>{a.pause();a.currentTime=t}',target)
+  page.wait_for_function('(n)=>document.querySelector("#line-count").textContent.startsWith(n+"/4")',arg=index+1)
+  page.wait_for_function('(t)=>Math.abs(document.querySelector("#scene-video").currentTime-t)<.15',arg=target)
+  assert page.locator('.anime-frame').get_attribute('src').endswith(f'sushi-shots/{index+1:02}.webp')
+ page.locator('#scene-repeat').click();page.wait_for_function('document.querySelector("#scene-video").currentTime>7.4')
+ page.locator('#scene-speed').select_option('0.6');assert page.locator('#scene-video').evaluate('(v)=>v.currentTime')>7.3
+ page.locator('#scene-pause').click()
  page.locator('#scene-motion').click();assert not page.locator('#scene-video').is_visible();assert page.locator('.anime-frame').is_visible()
  page.locator('#scene-motion').click();page.locator('#scene-repeat').click();page.wait_for_function('!document.querySelector("#scene-video").paused');page.locator('#scene-pause').click();assert page.locator('#scene-video').evaluate('(v)=>v.paused')
  page.goto(base+'#scenette?id=station');page.wait_for_selector('.anime-frame');assert page.locator('#scene-video').count()==0
