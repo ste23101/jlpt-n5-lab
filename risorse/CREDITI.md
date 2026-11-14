@@ -19,6 +19,6 @@ I file aggregati `kanji-base.json`, `kanji-base.csv`, `kanji-anki.tsv`, `quadern
 
 ## Materiale originale
 
-Guida di studio, fogli errori, checklist e lessico introduttivo sono creati per N5 Lab. I file delle simulazioni JLPT non vengono ridistribuiti: PDF e audio ufficiali vanno scaricati dal sito dei titolari, che ne stabiliscono le condizioni.
+Guida di studio, fogli errori, checklist e lessico introduttivo sono creati per N5 Lab. La selezione scritta ufficiale N5 del 2018 è riprodotta gratuitamente con fonte secondo le condizioni JLPT: vedere `ufficiali/ATTRIBUZIONE.md`. Gli audio ufficiali e le opere di terzi escluse restano sul sito dei titolari. Le scenette e i loro audio sintetici ElevenLabs sono originali e distinti dai quesiti ufficiali.
 
 Non esiste una lista esaustiva ufficiale pubblicata dei kanji del formato attuale JLPT N5. Le etichette “fondamentali” ed “esplorazione” descrivono questo percorso, non certificano un livello d'esame.

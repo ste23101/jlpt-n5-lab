@@ -1,0 +1,302 @@
+{
+  "version": 1,
+  "provider": "ElevenLabs",
+  "generated": true,
+  "updated": "2026-11-14T13:55:16.242860+00:00",
+  "scenes": {
+    "sushi": {
+      "src": "./risorse/audio/sushi/dialogue.mp3",
+      "provider": "ElevenLabs",
+      "model": "eleven_v4",
+      "synthetic": true,
+      "voices": {
+        "staff": "Momoka - Bright, Clear and Soothing",
+        "learner": "Makoto-san - Warm, Friendly AI Assistant"
+      },
+      "lines": [
+        {
+          "src": "./risorse/audio/sushi/01.mp3",
+          "start": 0,
+          "duration": 2.926,
+          "speaker": "staff",
+          "voice": "Momoka - Bright, Clear and Soothing",
+          "generation": "O9hEvhMjfrMYVRGYIixA",
+          "sha256": "47895c8961c9dd93519223d2163eb708b7f7624ae5a8d9ed15eb11e137e80c25"
+        },
+        {
+          "src": "./risorse/audio/sushi/02.mp3",
+          "start": 2.926,
+          "duration": 2.116,
+          "speaker": "learner",
+          "voice": "Makoto-san - Warm, Friendly AI Assistant",
+          "generation": "9eznhUaA6X47Xzv5tBzo",
+          "sha256": "52c002b70dd85c865b96a790f5edc07523a81b1098bac0a74846ef680bbb14a9"
+        },
+        {
+          "src": "./risorse/audio/sushi/03.mp3",
+          "start": 5.042,
+          "duration": 2.351,
+          "speaker": "staff",
+          "voice": "Momoka - Bright, Clear and Soothing",
+          "generation": "tDxAI3hPMbItLU06YISq",
+          "sha256": "52629f49276bf0c387d5e0d7d7cffe6f4faa900acca425627f63bf448c1bb022"
+        },
+        {
+          "src": "./risorse/audio/sushi/04.mp3",
+          "start": 7.393,
+          "duration": 1.881,
+          "speaker": "learner",
+          "voice": "Makoto-san - Warm, Friendly AI Assistant",
+          "generation": "F4Mw0CQ0eedCEJ4JY109",
+          "sha256": "212f7dc4f4029fb8b67f46b5269cc56c324f67d2235a3e7b01c5386812c12955"
+        }
+      ],
+      "duration": 9.273469
+    },
+    "station": {
+      "src": "./risorse/audio/station/dialogue.mp3",
+      "provider": "ElevenLabs",
+      "model": "eleven_v4",
+      "synthetic": true,
+      "voices": {
+        "staff": "Momoka - Bright, Clear and Soothing",
+        "learner": "Makoto-san - Warm, Friendly AI Assistant"
+      },
+      "lines": [
+        {
+          "src": "./risorse/audio/station/01.mp3",
+          "start": 0,
+          "duration": 2.508,
+          "speaker": "staff",
+          "voice": "Momoka - Bright, Clear and Soothing",
+          "generation": "INsOafBUQ5388weU4LRA",
+          "sha256": "856af120f452553a432488b3052721a03950fbf204458958e895870101a9abec"
+        },
+        {
+          "src": "./risorse/audio/station/02.mp3",
+          "start": 2.508,
+          "duration": 4.362,
+          "speaker": "learner",
+          "voice": "Makoto-san - Warm, Friendly AI Assistant",
+          "generation": "1N5qI6sh00wFVT5AmeB0",
+          "sha256": "96abcdd978bd902b4830c5a01612f9f37e3c22d2112abeab20d9e72d56cac659"
+        },
+        {
+          "src": "./risorse/audio/station/03.mp3",
+          "start": 6.87,
+          "duration": 3.553,
+          "speaker": "staff",
+          "voice": "Momoka - Bright, Clear and Soothing",
+          "generation": "vxw6IfriIL0QYnS7Eivl",
+          "sha256": "2c4595563a07dae82a307e5cb8377c4aee1f681670f7c05e21b6a668aa67013b"
+        },
+        {
+          "src": "./risorse/audio/station/04.mp3",
+          "start": 10.423,
+          "duration": 1.646,
+          "speaker": "learner",
+          "voice": "Makoto-san - Warm, Friendly AI Assistant",
+          "generation": "CtAVGalYDAU8gBbpntgk",
+          "sha256": "adc0270e8fa2de04c30b0e1c45a3d6cb05de86fc6d5bd6506ecc9a1645ccea98"
+        }
+      ],
+      "duration": 12.068571
+    },
+    "shop": {
+      "src": "./risorse/audio/shop/dialogue.mp3",
+      "provider": "ElevenLabs",
+      "model": "eleven_v4",
+      "synthetic": true,
+      "voices": {
+        "learner": "Makoto-san - Warm, Friendly AI Assistant",
+        "staff": "Momoka - Bright, Clear and Soothing"
+      },
+      "lines": [
+        {
+          "src": "./risorse/audio/shop/01.mp3",
+          "start": 0,
+          "duration": 2.194,
+          "speaker": "learner",
+          "voice": "Makoto-san - Warm, Friendly AI Assistant",
+          "generation": "sPMbE2WZZ0DU92cjtMeW",
+          "sha256": "35cd3387ead77ad59d2e113471e6a4d80557ddc216abd7084cabd7c7c6c0849f"
+        },
+        {
+          "src": "./risorse/audio/shop/02.mp3",
+          "start": 2.194,
+          "duration": 3.788,
+          "speaker": "staff",
+          "voice": "Momoka - Bright, Clear and Soothing",
+          "generation": "I7W2Sn32wGgQnSyzPPHd",
+          "sha256": "bc242e2518afe09980af9f2e6a679831f97cdb2fbd9c1e27124fcaa577eaa7bf"
+        },
+        {
+          "src": "./risorse/audio/shop/03.mp3",
+          "start": 5.982,
+          "duration": 1.959,
+          "speaker": "learner",
+          "voice": "Makoto-san - Warm, Friendly AI Assistant",
+          "generation": "9u348hVXoLYyVaJtOTZw",
+          "sha256": "61b943a6498f478b8903531ab9b1b8bab30c8a60e6a5c1e7cfc594f2f592be79"
+        },
+        {
+          "src": "./risorse/audio/shop/04.mp3",
+          "start": 7.941,
+          "duration": 2.116,
+          "speaker": "staff",
+          "voice": "Momoka - Bright, Clear and Soothing",
+          "generation": "WeTVdM4iuzz31Jn4JNrb",
+          "sha256": "ce461c8877bc9f133c8cbd034c71148cab6b111fcb8ac8b073e67c2ae8d7d679"
+        }
+      ],
+      "duration": 10.057143
+    },
+    "library": {
+      "src": "./risorse/audio/library/dialogue.mp3",
+      "provider": "ElevenLabs",
+      "model": "eleven_v4",
+      "synthetic": true,
+      "voices": {
+        "learner": "Makoto-san - Warm, Friendly AI Assistant",
+        "staff": "Momoka - Bright, Clear and Soothing"
+      },
+      "lines": [
+        {
+          "src": "./risorse/audio/library/01.mp3",
+          "start": 0,
+          "duration": 2.429,
+          "speaker": "learner",
+          "voice": "Makoto-san - Warm, Friendly AI Assistant",
+          "generation": "O4U2yzUJudqnD1fX4ExE",
+          "sha256": "da1e7f086b870da16b1db11099bf4b9f1c6f816ed32a1d37135da38d38ed901b"
+        },
+        {
+          "src": "./risorse/audio/library/02.mp3",
+          "start": 2.429,
+          "duration": 1.411,
+          "speaker": "staff",
+          "voice": "Momoka - Bright, Clear and Soothing",
+          "generation": "CI1EiYeTNnZLLowNsYjn",
+          "sha256": "bbb99a8246562401150eaf72592b7dd69f322ffc26b817473e66fb681659621a"
+        },
+        {
+          "src": "./risorse/audio/library/03.mp3",
+          "start": 3.84,
+          "duration": 2.116,
+          "speaker": "learner",
+          "voice": "Makoto-san - Warm, Friendly AI Assistant",
+          "generation": "V8AkRJKLTIXZTtGruBYR",
+          "sha256": "99c755d7fc86e63cf3b5733312db45d8edf93de188e3ea9f3c36039e593988f4"
+        },
+        {
+          "src": "./risorse/audio/library/04.mp3",
+          "start": 5.956,
+          "duration": 5.146,
+          "speaker": "staff",
+          "voice": "Momoka - Bright, Clear and Soothing",
+          "generation": "BZ9K9kcOX3V6ifikUQRJ",
+          "sha256": "174189374f1978a4dcbb480326620f407740b10261b417f0b50071acc46012fd"
+        }
+      ],
+      "duration": 11.102041
+    },
+    "park": {
+      "src": "./risorse/audio/park/dialogue.mp3",
+      "provider": "ElevenLabs",
+      "model": "eleven_v4",
+      "synthetic": true,
+      "voices": {
+        "staff": "Momoka - Bright, Clear and Soothing",
+        "learner": "Makoto-san - Warm, Friendly AI Assistant"
+      },
+      "lines": [
+        {
+          "src": "./risorse/audio/park/01.mp3",
+          "start": 0,
+          "duration": 2.273,
+          "speaker": "staff",
+          "voice": "Momoka - Bright, Clear and Soothing",
+          "generation": "Xd33FV0plzwdrxEJfEoe",
+          "sha256": "e5493189e9fad2afa5aedaefdb8369aa2df8cb45683b51d41e7ff92097ea948a"
+        },
+        {
+          "src": "./risorse/audio/park/02.mp3",
+          "start": 2.273,
+          "duration": 2.429,
+          "speaker": "learner",
+          "voice": "Makoto-san - Warm, Friendly AI Assistant",
+          "generation": "BbLqy81HiZ2ESZocQIrR",
+          "sha256": "9b792e0a995f1724c5bd8a61b5f3592034e0893f82130d113bc6699d26cbebbc"
+        },
+        {
+          "src": "./risorse/audio/park/03.mp3",
+          "start": 4.702,
+          "duration": 4.754,
+          "speaker": "staff",
+          "voice": "Momoka - Bright, Clear and Soothing",
+          "generation": "0MiMf6cNnnHUAIECpsx4",
+          "sha256": "168d6959edfc92738ecb39d56513857edf2ca3cdfe46c1e848e6abe6353a15b8"
+        },
+        {
+          "src": "./risorse/audio/park/04.mp3",
+          "start": 9.456,
+          "duration": 3.396,
+          "speaker": "learner",
+          "voice": "Makoto-san - Warm, Friendly AI Assistant",
+          "generation": "stzgBRhCW8LyDJs37dMX",
+          "sha256": "0ad140fff9364cdc05a84e71c8168d2db34b767fcd1a70196ffc0fa9b0069f09"
+        }
+      ],
+      "duration": 12.852245
+    },
+    "classroom": {
+      "src": "./risorse/audio/classroom/dialogue.mp3",
+      "provider": "ElevenLabs",
+      "model": "eleven_v4",
+      "synthetic": true,
+      "voices": {
+        "learner": "Makoto-san - Warm, Friendly AI Assistant",
+        "staff": "Momoka - Bright, Clear and Soothing"
+      },
+      "lines": [
+        {
+          "src": "./risorse/audio/classroom/01.mp3",
+          "start": 0,
+          "duration": 2.351,
+          "speaker": "learner",
+          "voice": "Makoto-san - Warm, Friendly AI Assistant",
+          "generation": "dXzobk3GjzEs6yXUXdCF",
+          "sha256": "70b0232073677262023362d2619a06bad1e9991d9db4c7167d77220e8e4615b4"
+        },
+        {
+          "src": "./risorse/audio/classroom/02.mp3",
+          "start": 2.351,
+          "duration": 2.116,
+          "speaker": "staff",
+          "voice": "Momoka - Bright, Clear and Soothing",
+          "generation": "0Ia5iPeXS88RmsWkvEE0",
+          "sha256": "027ff1f2b5a3af304c1fd1047907c1709951b8ee34fba72f76fc62686de31bef"
+        },
+        {
+          "src": "./risorse/audio/classroom/03.mp3",
+          "start": 4.467,
+          "duration": 3.631,
+          "speaker": "learner",
+          "voice": "Makoto-san - Warm, Friendly AI Assistant",
+          "generation": "h0J8CR8ll1ZVpdq0AWwl",
+          "sha256": "555dec4cc00fbba7123b9d9e7a9ca962a33506e5122b129320396c3be52fea8a"
+        },
+        {
+          "src": "./risorse/audio/classroom/04.mp3",
+          "start": 8.098,
+          "duration": 1.306,
+          "speaker": "staff",
+          "voice": "Momoka - Bright, Clear and Soothing",
+          "generation": "NF76Snmd2sEgfOn8tNRN",
+          "sha256": "18effbe598f6a25a37cfca1ee81d566ad47fc0b85f5d186ce8a670b13acb0074"
+        }
+      ],
+      "duration": 9.404082
+    }
+  }
+}

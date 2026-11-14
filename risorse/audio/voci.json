@@ -1,0 +1,21 @@
+{
+  "provider": "ElevenLabs",
+  "model": "eleven_v4",
+  "synthetic": true,
+  "voices": [
+    {
+      "voice_id": "cLHFgsz6RJ4EBhuBmR7a",
+      "name": "Momoka - Bright, Clear and Soothing",
+      "category": "professional",
+      "language": "ja",
+      "accent": "ja-standard"
+    },
+    {
+      "voice_id": "39Vd88odsfMFSYn3pQ7i",
+      "name": "Makoto-san - Warm, Friendly AI Assistant",
+      "category": "professional",
+      "language": "ja",
+      "accent": "ja-standard"
+    }
+  ]
+}
