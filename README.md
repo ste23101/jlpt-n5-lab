@@ -4,7 +4,9 @@ Un percorso di studio in italiano con schede kanji, componenti, storie mnemonich
 
 ## Apri il sito
 
-**https://ste23101.github.io/jlpt-n5-lab/**
+**URL previsto:** https://ste23101.github.io/jlpt-n5-lab/
+
+Codice e materiali sono nella repository. Se Pages non è ancora attivo, abilitarlo una volta in [Settings → Pages](https://github.com/ste23101/jlpt-n5-lab/settings/pages): Deploy from a branch → main → /(root) → Save. L’integrazione usata per il caricamento non dispone del permesso di attivazione Pages (HTTP 403).
 
 Progetto indipendente, non affiliato a JLPT, Japan Foundation o JEES. Il sito non garantisce il superamento dell’esame e non converte le percentuali dei quiz in punteggi ufficiali.
 
