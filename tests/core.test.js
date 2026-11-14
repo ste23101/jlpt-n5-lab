@@ -1,0 +1,9 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {vocab,kana,kanji,grammar,questions,listening} from '../data.js';
+import {schedule,validState,makeVocabQuestions,shuffle,escapeHTML} from '../core.js';
+test('tutte le carte hanno ID univoci e campi completi',()=>{const cards=[...vocab,...kana,...kanji];assert.equal(new Set(cards.map(c=>c.id)).size,cards.length);for(const c of cards)for(const k of ['id','word','reading','meaning','category'])assert.ok(c[k],`${c.id}: ${k}`);assert.ok(vocab.length>=200);assert.ok(kanji.length>=80);assert.equal(grammar.length,35);});
+test('ogni quiz ha quattro opzioni univoche e una risposta corretta',()=>{for(const q of [...questions,...listening,...makeVocabQuestions(vocab)]){assert.equal(q.options.length,4,q.id);assert.equal(new Set(q.options).size,4,q.id);assert.ok(q.options.includes(q.answer),q.id);assert.ok(q.explanation,q.id);}});
+test('ripasso: errore a 10 minuti, successo a 1 giorno, poi intervallo doppio fino a 30',()=>{const first=schedule(null,true,0);assert.equal(first.due,86400000);assert.equal(schedule(first,true,0).days,2);assert.equal(schedule({days:16,reviews:5},true,0).days,30);assert.equal(schedule(first,false,0).due,600000);assert.equal(schedule(first,false,0).reviews,2);});
+test('backup rifiuta dati malformati e conteggi impossibili',()=>{const s={version:1,cards:{},weeks:[],sessions:[],errors:[],checks:[],exam:''};assert.ok(validState(s));assert.ok(!validState({...s,cards:[]}));assert.ok(!validState({...s,weeks:[12]}));assert.ok(!validState({...s,sessions:[{date:'x',category:'quiz',total:5,correct:6}]}));assert.ok(!validState({...s,cards:{v1:{days:-1,due:0,reviews:0}}}));});
+test('shuffle conserva gli elementi senza mutare la fonte e HTML viene neutralizzato',()=>{const a=[1,2,3,4];assert.deepEqual(shuffle(a).sort(),a);assert.equal(escapeHTML('<img src=x onerror="x">'),'&lt;img src=x onerror=&quot;x&quot;&gt;');});
