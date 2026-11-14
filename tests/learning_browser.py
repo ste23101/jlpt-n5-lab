@@ -8,7 +8,7 @@ root=Path(__file__).resolve().parent.parent
 server=http.server.ThreadingHTTPServer(('127.0.0.1',0),functools.partial(Quiet,directory=str(root)))
 threading.Thread(target=server.serve_forever,daemon=True).start();base=f'http://127.0.0.1:{server.server_port}/'
 with sync_playwright() as p:
- b=p.chromium.launch(executable_path=shutil.which('chromium'),headless=True,args=['--no-sandbox']);page=b.new_page(viewport={'width':1440,'height':1100});errors=[];page.on('pageerror',lambda e:errors.append(str(e)));page.goto(base);page.wait_for_selector('h1')
+ b=p.chromium.launch(executable_path=shutil.which('chromium'),headless=True,args=['--no-sandbox']);page=b.new_page(viewport={'width':1440,'height':1100});errors=[];page.on('pageerror',lambda e:errors.append(e.stack));page.goto(base);page.wait_for_selector('h1')
  for route in ['salvataggi','scenette','arcade','ufficiali','home']:
   page.goto(base+'#'+route);page.wait_for_selector('h1');assert page.locator('h1').is_visible()
  page.goto(base+'#scenette?id=sushi');page.wait_for_selector('#scene-audio');assert 'sushi/dialogue.mp3' in page.locator('#scene-audio').get_attribute('src')
@@ -29,7 +29,7 @@ with sync_playwright() as p:
  page.locator('#play-order').click();assert page.locator('.word-bank').is_visible()
  for i in range(page.locator('[data-token]').count()):page.locator(f'[data-token="{i}"]').click()
  page.locator('#check-order').click();assert page.get_by_text('Frase modello ricostruita.',exact=True).is_visible()
- page.goto(base+'#salvataggi');page.wait_for_selector('#save-now');page.locator('#save-now').click();page.wait_for_selector('[data-restore]');assert 'presente' in page.locator('#storage-status').inner_text()
+ page.goto(base+'#salvataggi');page.wait_for_selector('#save-now');page.locator('#save-now').click();page.wait_for_selector('[data-restore]');page.wait_for_function('document.querySelector("#storage-status")?.innerText.includes("presente")')
  # Simula corruzione del salvataggio primario, senza toccare IndexedDB.
  page.evaluate('localStorage.setItem("n5lab-v1","{corrotto")');page.reload();page.wait_for_selector('#storage-status strong');page.wait_for_function('JSON.parse(localStorage.getItem("n5lab-v1")||"null")?.sessions?.length>0')
  page.goto(base+'#valutazioni');page.wait_for_selector('.skill-score');assert page.locator('.skill-score').first.inner_text()=='100%'

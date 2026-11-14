@@ -113,3 +113,13 @@ La banca conta ora **612 quesiti** complessivi, oltre alle 8 frasi da ricomporre
 Per creare nuovi audio fuori dal browser è disponibile `scripts/generate_dialogue_audio.py`: richiede una chiave in una variabile segreta dell’ambiente e non la stampa. Non serve per riprodurre i file già pubblicati. I file creati in questo aggiornamento sono stati generati dal plugin ElevenLabs collegato, senza chiavi locali. [Dettagli audio e alternative di generazione](risorse/audio/README.md).
 
 Verifica aggiuntiva: `python3 tests/learning_browser.py` avvia un server temporaneo e controlla riproduzione MP3 rallentata, scene, quesiti ufficiali 12/12, premi, frasi, copia IndexedDB, recupero di un salvataggio corrotto, ripristino e layout a tre larghezze.
+
+## Scenette anime e icone
+
+L’interfaccia usa icone SVG originali e locali (`icons.svg`), con decorazione accessibile e senza librerie esterne. Le emoji decorative nei controlli sono sostituite da icone monocromatiche; i kanji rimangono testo selezionabile.
+
+Le sei scenette hanno **illustrazioni anime originali** coordinate, generate tramite ElevenLabs Creative Studio (`gpt-image-2.5-sunburst`) e conservate in `risorse/anime/`. La scena sushi include una **prova video anime** generata con `kling-2.5-turbo`, adattata alla durata del dialogo ElevenLabs già presente. Il player sincronizza avvio, pausa e velocità di audio e movimento; è disponibile anche il filmato MP4 con audio per il download.
+
+Il filmato è illustrativo e non promette un labiale sincronizzato parola per parola. “Usa immagine statica” disattiva il movimento. Con `prefers-reduced-motion: reduce` il video è disattivato inizialmente e può essere attivato volontariamente. Le altre cinque ambientazioni usano illustrazioni statiche, non vengono presentate come video generati.
+
+Il manifest `risorse/anime/manifest.json` documenta modelli, identificativi e percorsi locali, senza URL temporanei o credenziali. I file generati sono inclusi anche nel pacchetto delle risorse. Ascolto e riproduzione non avviano nuove generazioni a pagamento.

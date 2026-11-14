@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "provider": "ElevenLabs Creative Studio",
+  "style": "Illustrazioni anime originali",
+  "scenes": {
+    "sushi": {
+      "poster": "./risorse/anime/sushi.webp",
+      "model": "gpt-image-2.5-sunburst",
+      "generation": "BB1PWVExW6ypRE4MBxg4",
+      "synthetic": true,
+      "video": "./risorse/anime/sushi-motion.mp4",
+      "download": "./risorse/anime/sushi-con-dialogo.mp4",
+      "videoModel": "kling-2.5-turbo",
+      "videoGeneration": "2AFVGTfSrYIhNcGivlEU",
+      "sourceVideoDuration": 5.041667
+    },
+    "station": {
+      "poster": "./risorse/anime/station.webp",
+      "model": "gpt-image-2.5-sunburst",
+      "generation": "crv5pIknrXjiTsPqukhU",
+      "synthetic": true
+    },
+    "shop": {
+      "poster": "./risorse/anime/shop.webp",
+      "model": "gpt-image-2.5-sunburst",
+      "generation": "uXOuDl2BciD1tzpVRv0p",
+      "synthetic": true
+    },
+    "library": {
+      "poster": "./risorse/anime/library.webp",
+      "model": "gpt-image-2.5-sunburst",
+      "generation": "cSSp5wwUMpwFH5TnU2Tv",
+      "synthetic": true
+    },
+    "park": {
+      "poster": "./risorse/anime/park.webp",
+      "model": "gpt-image-2.5-sunburst",
+      "generation": "YmmsfSDDozlNBS5RF8xj",
+      "synthetic": true
+    },
+    "classroom": {
+      "poster": "./risorse/anime/classroom.webp",
+      "model": "gpt-image-2.5-sunburst",
+      "generation": "1DpSws7mkmCqk7Q8Kg62",
+      "synthetic": true
+    }
+  }
+}

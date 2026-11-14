@@ -1,3 +1,4 @@
+import {startIcons} from './icons.js';
 import {officialQuestions} from './official-questions.js';
 import {sceneQuestions} from './scenes-data.js';
 import {createLearningUI} from './learning-ui.js';
@@ -50,4 +51,4 @@ function route(){learningUI.stop();cleanup();cleanup=()=>{};quiz=null;if('speech
 const dayKey=new Date().toLocaleDateString('sv-SE');try{if(localStorage.getItem('n5lab-day')!==dayKey){state.checks=[];localStorage.setItem('n5lab-day',dayKey);save();}}catch{}
 main.addEventListener('change',e=>{if(e.target.dataset.week!==undefined){const i=Number(e.target.dataset.week);state.weeks=state.weeks.filter(x=>x!==i);if(e.target.checked)state.weeks.push(i);save();}if(e.target.dataset.check){const id=e.target.dataset.check;state.checks=state.checks.filter(x=>x!==id);if(e.target.checked)state.checks.push(id);save();}});
 main.addEventListener('click',e=>{const el=e.target.closest('[data-speak]');if(el)speak(el.dataset.speak);});
-window.addEventListener('hashchange',route);$('#today').textContent=new Date().toLocaleDateString('it-IT',{weekday:'long',day:'numeric',month:'long'});if('speechSynthesis'in window)speechSynthesis.getVoices();route();if(!loaded.hasData||loaded.recovered)save();if(loaded.recovered)toast('Progressi recuperati dalla copia di sicurezza locale.');if(!storageOK)toast('Dati locali non disponibili o non validi. Esporta i progressi per conservarli.');
+startIcons();window.addEventListener('hashchange',route);$('#today').textContent=new Date().toLocaleDateString('it-IT',{weekday:'long',day:'numeric',month:'long'});if('speechSynthesis'in window)speechSynthesis.getVoices();route();if(!loaded.hasData||loaded.recovered)save();if(loaded.recovered)toast('Progressi recuperati dalla copia di sicurezza locale.');if(!storageOK)toast('Dati locali non disponibili o non validi. Esporta i progressi per conservarli.');
