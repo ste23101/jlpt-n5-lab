@@ -4,9 +4,9 @@ Un percorso di studio in italiano con schede kanji, componenti, storie mnemonich
 
 ## Apri il sito
 
-**URL previsto:** https://ste23101.github.io/jlpt-n5-lab/
+**Sito pubblico:** https://ste23101.github.io/jlpt-n5-lab/
 
-Codice e materiali sono nella repository. Se Pages non è ancora attivo, abilitarlo una volta in [Settings → Pages](https://github.com/ste23101/jlpt-n5-lab/settings/pages): Deploy from a branch → main → /(root) → Save. L’integrazione usata per il caricamento non dispone del permesso di attivazione Pages (HTTP 403).
+GitHub Pages attivo dal branch `main`, cartella radice. Gli aggiornamenti pubblicati su `main` avviano una nuova distribuzione.
 
 Progetto indipendente, non affiliato a JLPT, Japan Foundation o JEES. Il sito non garantisce il superamento dell’esame e non converte le percentuali dei quiz in punteggi ufficiali.
 
@@ -43,7 +43,7 @@ Il rapporto separa **kanji, radicali, lessico, grammatica, lettura e ascolto**. 
 
 Le etichette hanno queste regole: meno di 5 risposte “Da esplorare”; da 5 a 9 “Primi indizi”; da 10 risposte, sotto 60% “Da rinforzare”, 60–79% “In crescita”, almeno 80% “Buona base”. Sono fasce didattiche, non probabilità di promozione. I 6 dialoghi interni costituiscono un campione piccolo: usare anche registrazioni e prove ufficiali.
 
-Piano in 12 tappe con checkpoint, data personalizzabile e indicazioni per chi ha meno tempo. **L’utente ha indicato il 6 ottobre senza specificare l’anno**: il sito mostra questo obiettivo come “anno da confermare” finché non viene selezionata una data completa. Non inventa un conto alla rovescia. Il calendario ufficiale JLPT 2026 indica il 5 luglio e il **6 dicembre**: verificare la propria convocazione/organizzazione.
+Obiettivo confermato: **6 dicembre 2026**, preimpostato anche per i salvataggi precedenti con data vuota. Le date personalizzate già salvate restano invariate. Il conto alla rovescia usa giorni di calendario; lo sprint distingue fondamentali, consolidamento, simulazioni e ripasso leggero in base al tempo rimasto. Il percorso in 12 tappe resta come riferimento. Verificare iscrizione e convocazione con l’organizzatore locale.
 
 ## Risorse scaricabili incluse
 
