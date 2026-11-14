@@ -12,7 +12,9 @@
       "download": "./risorse/anime/sushi-con-dialogo.mp4",
       "videoModel": "kling-2.5-turbo",
       "videoGeneration": "2AFVGTfSrYIhNcGivlEU",
-      "sourceVideoDuration": 5.041667
+      "sourceVideoDuration": 5.041667,
+      "status": "withdrawn",
+      "withdrawalReason": "Movimento non coerente con i turni e il contenuto del dialogo."
     },
     "station": {
       "poster": "./risorse/anime/station.webp",
