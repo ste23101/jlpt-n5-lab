@@ -4,8 +4,12 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "build:readings": "node scripts/build_furigana.mjs",
     "start": "python3 -m http.server 4173",
     "test": "node --test tests/*.test.js",
-    "check": "node --check icons.js && node --check app.js && node --check quest.js && node --check learning-ui.js && node --check progress-store.js && node --check game-core.js && node --check learning-core.js && node --check dojo-data.js && node --check dojo-games.js && node --check official-extra.js && node --check official-questions.js && node --check scenes-data.js && node --check exam-plan.js && npm test"
+    "check": "node --check anime-lessons.js && node --check site-sections.js && node --check furigana.js && node --check furigana-data.js && node --check writing-core.js && node --check writing-ui.js && node --check official-2012.js && node --check icons.js && node --check app.js && node --check quest.js && node --check learning-ui.js && node --check progress-store.js && node --check game-core.js && node --check learning-core.js && node --check dojo-data.js && node --check dojo-games.js && node --check official-extra.js && node --check official-questions.js && node --check scenes-data.js && node --check exam-plan.js && npm test"
+  },
+  "devDependencies": {
+    "kuromoji": "^0.1.2"
   }
 }

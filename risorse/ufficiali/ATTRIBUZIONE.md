@@ -25,3 +25,11 @@ La [pagina dei workbook](https://www.jlpt.jp/e/samples/sampleindex.html) identif
 Questi materiali non sono MIT o Creative Commons. Conservare attribuzione e condizioni. Un futuro uso a pagamento, modifiche sostanziali o l’aggiunta di opere di terzi richiedono una nuova verifica dei diritti.
 
 Le copertine del 2018 indicano durate precedenti: il N5 attuale prevede 20 minuti per lessico e 40 per grammatica/lettura, invece di 25 e 50. Questa banca comprende lo scritto del workbook 2018: non include l’ascolto e non è una simulazione inedita. La percentuale di corrette non equivale a un punteggio ufficiale su 180 né alla probabilità di promozione.
+
+## Workbook 2012: altre 33 schede ufficiali
+
+Sono inclusi anche i PDF originali del [lessico](https://www.jlpt.jp/samples/sample2012/pdf/N5V.pdf), della [grammatica](https://www.jlpt.jp/samples/sample2012/pdf/N5G.pdf), della [lettura](https://www.jlpt.jp/samples/sample2012/pdf/N5R.pdf) e delle [soluzioni](https://www.jlpt.jp/samples/sample2012/pdf/N5answer.pdf) del workbook 2012 N5, con gli stessi criteri di uso didattico gratuito descritti sopra.
+
+`lessico-2012/` contiene i 33 quesiti di lessico come ritagli dell’originale, preservando grafie simili, sottolineature e figure dei quesiti 27 e 28. `official-2012.js` collega ciascun ritaglio a fonte, pagina PDF, pagina stampata, requisiti e spiegazione italiana originale. La scelta “Risposta 1–4” corrisponde al numero dell’opzione nell’immagine originale anche quando i pulsanti cambiano ordine.
+
+`chiave-2012.json` trascrive la tabella originale per il lessico. Le 33 risposte sono verificate nei test e gli identificativi iniziano con `official-2012-v-`. La banca complessiva conta 100 quesiti ufficiali distinti: 67 del 2018 e 33 del 2012. I quesiti di grammatica e lettura 2012 sono consultabili nei PDF e non sono conteggiati tra questi 100.

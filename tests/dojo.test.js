@@ -7,16 +7,16 @@ import {kanjiQuestions} from '../quest.js';
 
 test('67 quesiti ufficiali: ogni risposta coincide con la chiave del fascicolo e mantiene la fonte',()=>{
  const keys=JSON.parse(fs.readFileSync(new URL('../risorse/ufficiali/chiave-2018.json',import.meta.url)));
- assert.equal(officialQuestions.length,67);
- for(const q of officialQuestions){
+ assert.equal(officialQuestions.length,100);
+ for(const q of officialPool('all','2018')){
   const kind=q.id.split('-')[2],offset=kind==='r'?27:1,key=keys[kind][q.source.question-offset];
   assert.equal(q.answer,q.options[key-1],q.id);assert.equal(new Set(q.options).size,4,q.id);
   assert.ok(q.explanation&&q.requirements.length);assert.match(q.source.url,/^https:\/\/www.jlpt.jp\/samples\/sample2018\/pdf\/N5[VGR].pdf$/);
   assert.ok(fs.existsSync(new URL('../'+q.source.local,import.meta.url)));
   for(const page of q.passages||[])assert.ok(fs.existsSync(new URL('../'+page.src,import.meta.url)),page.src);
  }
- assert.equal(officialPool('vocabulary').length,35);assert.equal(officialPool('writing').length,8);assert.equal(officialPool('grammar').length,26);assert.equal(officialPool('reading').length,6);
- assert.equal(new Set(officialQuestions.map(q=>q.id)).size,67);
+ assert.equal(officialPool('vocabulary','2018').length,35);assert.equal(officialPool('writing','2018').length,8);assert.equal(officialPool('grammar').length,26);assert.equal(officialPool('reading').length,6);
+ assert.equal(new Set(officialQuestions.map(q=>q.id)).size,100);
 });
 test('quattro giochi, 72 esercizi nuovi e 24 kanji collegati alle valutazioni esistenti',()=>{
  assert.equal(dojoGames.length,4);assert.equal(dojoQuestions.length,72);assert.equal(new Set(dojoQuestions.map(q=>q.id)).size,72);

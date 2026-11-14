@@ -42,7 +42,7 @@ with sync_playwright() as p:
  page.locator('#dojo-again').click();page.wait_for_selector('#dojo-mode');page.locator('#dojo-mode').select_option('errors');page.locator('#dojo-start').click();assert page.locator('#dojo-empty').is_visible()
  # Every official question, including passages and maps, can be answered via the rendered UI.
  page.goto(base+'#ufficiali');page.wait_for_selector('#official-section');page.locator('#official-count').select_option('all');page.locator('#start-official').click()
- official=page.evaluate('async()=> (await import("./official-questions.js")).officialQuestions')
+ official=page.evaluate('async()=> (await import("./official-questions.js")).officialPool("all","2018")')
  for q in official:
   assert page.locator('.official-source').is_visible()
   if q.get('passages'):
