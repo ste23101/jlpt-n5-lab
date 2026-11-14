@@ -56,7 +56,7 @@ La sezione Inventario offre:
 - `risorse/kanji-base.csv`, `kanji-base.json`, SVG e licenze;
 - `risorse/pacchetto-studio.zip`: raccolta delle risorse, con attribuzioni.
 
-I PDF/audio ufficiali non sono redistribuiti: il sito collega i [workbook JLPT 2012 e 2018](https://www.jlpt.jp/e/samples/sampleindex.html), con audio, trascrizioni, soluzioni e fogli risposta. Timer separato per lessico (20 minuti), grammatica e lettura (40), ascolto (circa 30). Diario delle prove su carta e cronologia dei risultati.
+Sono inclusi i PDF scritti N5 del 2018; gli audio ufficiali rimangono collegamenti ai titolari. Il sito collega anche i [workbook JLPT 2012 e 2018](https://www.jlpt.jp/e/samples/sampleindex.html), con audio, trascrizioni, soluzioni e fogli risposta. Timer separato per lessico (20 minuti), grammatica e lettura (40), ascolto (circa 30). Diario delle prove su carta e cronologia dei risultati.
 
 ## Avvio e verifica
 
@@ -105,10 +105,10 @@ Codice dell’app MIT. Dati e materiali derivati da KanjiVG e KANJIDIC2 hanno li
 - **Diario e salvataggi** (`#salvataggi`): copia primaria localStorage, seconda copia IndexedDB, fino a 5 punti di ripristino locali, recupero automatico della copia leggibile più recente, backup JSON e richiesta facoltativa di conservazione persistente al browser. Prima di importare o ripristinare viene conservato il progresso attuale. Azzerare tutti i progressi cancella anche le copie precedenti. Nessuna sincronizzazione automatica o account: le due copie rimangono sullo stesso dispositivo; cancellare tutti i dati del sito può eliminarle entrambe. Esportare il JSON per conservarlo separatamente o trasferirlo.
 - **Scenette e dialoghi** (`#scenette`): sushi, stazione, negozio, biblioteca, parco e aula. Sei dialoghi originali, 24 battute, attori illustrati, lettura in kana, traduzione, spiegazione e 12 domande di comprensione.
 - **Audio ElevenLabs realmente inclusi**: 6 MP3 completi e 24 MP3 delle battute, generati con modello `eleven_v4`, voci professionali giapponesi standard **Momoka** e **Makoto-san**, con tag espressivi. Player da 0,6× a 1,25× con pitch preservato, ripetizione di una frase, pausa e ripresa. Gli MP3 sono generati prima e pubblicati come file: ascoltarli non consuma credito API. Nessuna chiave è nel browser o nella repository. Gli audio sono sintetici di studio, non ufficiali JLPT.
-- **12 quesiti ufficiali** (`#ufficiali`): workbook 2018 N5, lessico, 問題1, domande 1–12. Fonte e requisiti accanto a ogni domanda; soluzioni confrontate con la chiave originale. Riproduzione didattica gratuita con attribuzione, secondo Site Policy JLPT §1(4): vedere [condizioni e attribuzione](risorse/ufficiali/ATTRIBUZIONE.md). Sono inclusi i PDF scritti N5 lessico e soluzioni; gli audio ufficiali e gli altri contenuti di terzi esclusi non vengono riprodotti. Questa sezione aggiorna la precedente scelta di tenere tutti i materiali ufficiali fuori dal pacchetto.
+- **67 quesiti ufficiali** (`#ufficiali`): workbook 2018 N5, tutti i 35 di lessico, 26 di grammatica e 6 di lettura. Fonte e requisiti accanto a ogni domanda; soluzioni confrontate con la chiave originale. Riproduzione didattica gratuita con attribuzione, secondo Site Policy JLPT §1(4): vedere [condizioni e attribuzione](risorse/ufficiali/ATTRIBUZIONE.md). Sono inclusi i PDF scritti N5 lessico, grammatica, lettura e soluzioni; gli audio ufficiali e gli altri contenuti di terzi esclusi non vengono riprodotti. Questa sezione aggiorna la precedente scelta di tenere tutti i materiali ufficiali fuori dal pacchetto.
 - **Sushi Quest** (`#arcade`): una risposta corretta distinta al giorno vale un piattino, cinque piattini aprono una capsula; collezione di 12 sigilli a rotazione. Niente acquisti o premi a pagamento. Aggiunge 8 giochi di ricomposizione di frasi e 8 domande sui componenti dei kanji. È un gioco originale, non affiliato a Kura Sushi e non una copia dei marchi/personaggi Bikkura Pon.
 
-La banca conta ora **612 quesiti** complessivi, oltre alle 8 frasi da ricomporre. Le domande delle scenette usano gli MP3 ElevenLabs anche durante il quiz; il numero di risposte distinte e l’ultima risposta continuano a governare le valutazioni. I vecchi backup restano compatibili.
+La banca conta ora **739 quesiti** complessivi, oltre alle 8 frasi da ricomporre. Le domande delle scenette usano gli MP3 ElevenLabs anche durante il quiz; il numero di risposte distinte e l’ultima risposta continuano a governare le valutazioni. I vecchi backup restano compatibili.
 
 Per creare nuovi audio fuori dal browser è disponibile `scripts/generate_dialogue_audio.py`: richiede una chiave in una variabile segreta dell’ambiente e non la stampa. Non serve per riprodurre i file già pubblicati. I file creati in questo aggiornamento sono stati generati dal plugin ElevenLabs collegato, senza chiavi locali. [Dettagli audio e alternative di generazione](risorse/audio/README.md).
 
@@ -125,3 +125,21 @@ Il montaggio segue gli inizi originali delle battute (0 / 2,926 / 5,042 / 7,393 
 Il labiale è generato automaticamente, con i limiti del modello su volti disegnati. “Usa immagine statica” mostra comunque l'inquadratura della battuta corrente. Con `prefers-reduced-motion: reduce` il video è disattivato inizialmente e può essere attivato volontariamente. Le altre cinque ambientazioni usano illustrazioni statiche. La precedente clip generica, le cui azioni non corrispondevano al dialogo, è stata rimossa.
 
 Il manifest `risorse/anime/manifest.json` documenta modelli, identificativi e percorsi locali, senza URL temporanei o credenziali. I file generati sono inclusi anche nel pacchetto delle risorse. Ascolto e riproduzione non avviano nuove generazioni a pagamento.
+
+
+## Quattro nuovi mini giochi e 67 quesiti ufficiali
+
+In Sushi Quest (`#arcade`) trovi quattro missioni da otto turni:
+
+- **Officina dei composti**: 24 parole da costruire con tessere kanji, letture complete e storie per ricordarle.
+- **Il kanji misterioso**: 24 kanji da riconoscere rivelando i tratti. Le risposte condividono gli identificativi del Dex, senza duplicare voti o premi.
+- **Il treno delle particelle**: 24 frasi su luogo, mezzo, oggetto, orario, compagnia e scopo.
+- **La fucina delle forme**: 24 trasformazioni di verbi e aggettivi, incluse le eccezioni 行く・する・来る.
+
+Le missioni propongono prima gli errori, poi le domande nuove. Ogni turno accetta una prima risposta e mostra la correzione. Un indizio rende il turno guidato: non modifica valutazioni, piattini o quaderno degli errori; dà soltanto XP di studio limitati alla giornata. Le risposte senza aiuto aggiornano gli stessi salvataggi e backup già esistenti. La selezione “Solo errori” ha uno stato esplicito quando non ci sono errori.
+
+Ispirazioni didattiche: componenti, mnemoniche e parole complete di WaniKani; richiamo attivo e ripasso degli elementi difficili descritti dal manuale Anki; organizzazione della grammatica in contesto come nelle librerie di Bunpro. Esercizi, interfaccia e storie sono originali. [Fonti e dettagli](risorse/mini-giochi/ISPIRAZIONI.md). Sono disponibili [72 esercizi da stampare](risorse/mini-giochi/missioni.html) e il JSON corrispondente nel pacchetto risorse.
+
+La sezione ufficiale permette di filtrare lessico completo, letture, grafie, grammatica e comprensione scritta, scegliere 10/20/tutti i quesiti e mantenere l’ordine del fascicolo oppure mescolarlo. Le opzioni cambiano ordine e si correggono per testo, con chiave ufficiale verificata per tutti i 67 quesiti. I brani conservano pagine originali con furigana, promemoria e tabelle, apribili a tutto schermo. Le vecchie 12 domande mantengono i loro identificativi. La banca totale è ora di 739 quesiti distinti, più le otto frasi da ricomporre.
+
+Verifiche: `npm run check`; `python3 tests/dojo_browser.py` controlla quattro missioni complete, primo errore, indizi esclusi dai voti, recupero dell’errore, persistenza dopo ricarica, 67/67 quesiti ufficiali e tre larghezze dello schermo. I test precedenti coprono ancora scenette, video, salvataggi e giochi esistenti.

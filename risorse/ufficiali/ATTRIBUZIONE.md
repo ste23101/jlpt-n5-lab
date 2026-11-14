@@ -5,18 +5,23 @@ Copyright: The Japan Foundation / Japan Educational Exchanges and Services (JEES
 
 ## Materiali riprodotti
 
-- `N5V-2018.pdf`: [JLPT Official Practice Workbook Vol. 2 (2018), N5, Vocabulary](https://www.jlpt.jp/samples/sample2018/pdf/N5V.pdf), copia non modificata.
-- `N5answer-2018.pdf`: [soluzioni ufficiali](https://www.jlpt.jp/samples/sample2018/pdf/N5answer.pdf), copia non modificata.
-- `official-questions.js`: 12 quesiti scritti, 問題1, domande 1–12, pagine stampate 1–2 (pagine PDF 3–4). Frasi, parole da leggere e opzioni sono riprodotte; interfaccia, spiegazioni italiane e requisiti sono aggiunte didattiche originali. L’ordine delle opzioni viene rimescolato: la correzione segue il testo della risposta, non il suo numero originario.
+Il sito include 67 quesiti scritti del JLPT Official Practice Workbook Vol. 2 (2018), N5:
 
-Le risposte sono state confrontate con la tabella ufficiale: 4,1,3,1,3,4,1,4,2,3,2,2.
+- `N5V-2018.pdf`: [Lessico](https://www.jlpt.jp/samples/sample2018/pdf/N5V.pdf), 35 quesiti, copia non modificata.
+- `N5G-2018.pdf`: [Grammatica](https://www.jlpt.jp/samples/sample2018/pdf/N5G.pdf), 26 quesiti, copia non modificata.
+- `N5R-2018.pdf`: [Lettura](https://www.jlpt.jp/samples/sample2018/pdf/N5R.pdf), 6 quesiti numerati 27–32 nel fascicolo combinato grammatica/lettura, copia non modificata.
+- `N5answer-2018.pdf`: [Soluzioni ufficiali](https://www.jlpt.jp/samples/sample2018/pdf/N5answer.pdf), copia non modificata.
+- `official-questions.js` e `official-extra.js`: frasi, parole da leggere/scrivere e opzioni; istruzioni di interfaccia, spiegazioni italiane e requisiti sono contributi originali, separati dalla fonte.
+- `lettura-2018/`: pagine originali rasterizzate senza modificarne testo o tabelle. Per le composizioni di grammatica è inclusa la pagina stampata 6; per lettura le pagine 8, 9, 10, 12, 13, 14 e 15. Il contesto è visibile prima della risposta e apribile a tutto schermo. Nella trascrizione alcune spaziature e cifre sono normalizzate; i furigana e l’impaginazione sono conservati nelle immagini e nei PDF.
+
+`chiave-2018.json` trascrive la tabella delle risposte ufficiali, confrontata nei test con tutte le 67 opzioni nell’ordine originale. Le opzioni nel sito vengono rimescolate: la correzione usa il testo della risposta. I 12 identificativi del primo laboratorio rimangono invariati per conservare i progressi.
 
 ## Condizioni verificate il 14 novembre 2026
 
 La [Site Policy JLPT §1(4)](https://www.jlpt.jp/e/policy.html), conservata anche come copia statica in `condizioni-JLPT.html` (script di navigazione e analytics rimossi; testo delle condizioni invariato), concede in anticipo riproduzione e copia dei materiali per insegnamento del giapponese senza far pagare il materiale, indicando la fonte secondo §1(2)④. Questo sito non addebita costi per i quesiti riprodotti; l’attribuzione è visibile accanto a ogni quesito.
 
-La [pagina dei workbook](https://www.jlpt.jp/e/samples/sampleindex.html) specifica che alcuni quesiti di grammatica/lettura N1 e N2 e tutti gli audio N1–N5 contengono opere di terzi. Queste eccezioni non sono incluse nella selezione scritta N5 di questo progetto. Gli audio ufficiali non sono riprodotti, sintetizzati con altre voci né incorporati come file locali; si consultano dal sito dei titolari.
+La [pagina dei workbook](https://www.jlpt.jp/e/samples/sampleindex.html) identifica opere di terzi in alcuni quesiti di grammatica/lettura N1 e N2 e in tutti gli audio N1–N5. Questa selezione include solo lo scritto N5. Gli audio ufficiali non sono riprodotti, sintetizzati con altre voci né incorporati come file locali: si consultano dal sito dei titolari. Gli audio sintetici delle scenette sono esercizi originali separati.
 
-Questi materiali non sono MIT o Creative Commons. Conservare attribuzione e condizioni. Un futuro uso a pagamento, modifiche sostanziali o l’aggiunta di contenuti di terzi richiedono una nuova verifica dei diritti.
+Questi materiali non sono MIT o Creative Commons. Conservare attribuzione e condizioni. Un futuro uso a pagamento, modifiche sostanziali o l’aggiunta di opere di terzi richiedono una nuova verifica dei diritti.
 
-Il fascicolo del 2018 mostra un tempo precedente: per il N5 attuale il lessico dura 20 minuti, non i 25 stampati sulla vecchia copertina. Le 12 domande qui proposte sono un allenamento parziale; non equivalgono a un esame completo o a un voto ufficiale.
+Le copertine del 2018 indicano durate precedenti: il N5 attuale prevede 20 minuti per lessico e 40 per grammatica/lettura, invece di 25 e 50. Questa banca comprende lo scritto del workbook 2018: non include l’ascolto e non è una simulazione inedita. La percentuale di corrette non equivale a un punteggio ufficiale su 180 né alla probabilità di promozione.

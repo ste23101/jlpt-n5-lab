@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "dojo-compound-1",
+    "category": "kanji",
+    "game": "composti",
+    "answer": "日本",
+    "reading": "にほん",
+    "meaning": "Giappone",
+    "hint": "日 (sole) + 本 (origine): ricorda il paese del sole che sorge.",
+    "prompt": "Componi la parola che significa «Giappone».",
+    "options": [
+      "日本",
+      "火山",
+      "今年",
+      "大人"
+    ],
+    "explanation": "日本（にほん）: Giappone. 日 (sole) + 本 (origine): ricorda il paese del sole che sorge.",
+    "requirements": [
+      "Riconoscere i kanji dentro parole complete."
+    ]
+  },
+  {
+    "id": "dojo-compound-2",
+    "category": "kanji",
+    "game": "composti",
+    "answer": "学校",
+    "reading": "がっこう",
+    "meaning": "scuola",
+    "hint": "学 (studio) + 校 (scuola): due caratteri legati allo studio. La lettura ha っ.",
+    "prompt": "Componi la parola che significa «scuola».",
+    "options": [
+      "学校",
+      "花火",
+      "入口",
+      "外国"
+    ],
+    "explanation": "学校（がっこう）: scuola. 学 (studio) + 校 (scuola): due caratteri legati allo studio. La lettura ha っ.",
+    "requirements": [
+      "Riconoscere i kanji dentro parole complete."
+    ]
+  },
+  {
+    "id": "dojo-compound-3",
+    "category": "kanji",
+    "game": "composti",
+    "answer": "先生",
+    "reading": "せんせい",
+    "meaning": "insegnante",
+    "hint": "先 (prima) + 生 (vita): immagina chi ha imparato prima e ora ti guida.",
+    "prompt": "Componi la parola che significa «insegnante».",
+    "options": [
+      "先生",
+      "休日",
+      "出口",
+      "会社"
+    ],
+    "explanation": "先生（せんせい）: insegnante. 先 (prima) + 生 (vita): immagina chi ha imparato prima e ora ti guida.",
+    "requirements": [
+      "Riconoscere i kanji dentro parole complete."
+    ]
+  },
+  {
+    "id": "dojo-compound-4",
+    "category": "kanji",
+    "game": "composti",
+    "answer": "学生",
+    "reading": "がくせい",
+    "meaning": "studente",
+    "hint": "学 (studio) + 生 (vita): una persona che dedica la sua vita allo studio.",
+    "prompt": "Componi la parola che significa «studente».",
+    "options": [
+      "学生",
+      "毎日",
+      "人口",
+      "名前"
+    ],
+    "explanation": "学生（がくせい）: studente. 学 (studio) + 生 (vita): una persona che dedica la sua vita allo studio.",
+    "requirements": [
+      "Riconoscere i kanji dentro parole complete."
+    ]
+  },
+  {
+    "id": "dojo-compound-5",
+    "category": "kanji",
+    "game": "composti",
+    "answer": "電車",
+    "reading": "でんしゃ",
+    "meaning": "treno",
+    "hint": "電 (elettricità) + 車 (veicolo): un veicolo elettrico sui binari.",
+    "prompt": "Componi la parola che significa «treno».",
+    "options": [
+      "電車",
+      "来月",
+      "天気",
+      "新聞"
+    ],
+    "explanation": "電車（でんしゃ）: treno. 電 (elettricità) + 車 (veicolo): un veicolo elettrico sui binari.",
+    "requirements": [
+      "Riconoscere i kanji dentro parole complete."
+    ]
+  },
+  {
+    "id": "dojo-compound-6",
+    "category": "kanji",
+    "game": "composti",
+    "answer": "火山",
+    "reading": "かざん",
+    "meaning": "vulcano",
+    "hint": "火 (fuoco) + 山 (montagna): una montagna di fuoco. 山 diventa ざん nel composto.",
+    "prompt": "Componi la parola che significa «vulcano».",
+    "options": [
+      "火山",
+      "来年",
+      "元気",
+      "時間"
+    ],
+    "explanation": "火山（かざん）: vulcano. 火 (fuoco) + 山 (montagna): una montagna di fuoco. 山 diventa ざん nel composto.",
+    "requirements": [
+      "Riconoscere i kanji dentro parole complete."
+    ]
+  },
+  {
+    "id": "dojo-compound-7",
+    "category": "kanji",
+    "game": "composti",
+    "answer": "花火",
+    "reading": "はなび",
+    "meaning": "fuochi d’artificio",
+    "hint": "花 (fiore) + 火 (fuoco): fiori di fuoco nel cielo. 火 qui diventa び.",
+    "prompt": "Componi la parola che significa «fuochi d’artificio».",
+    "options": [
+      "花火",
+      "今年",
+      "大人",
+      "午前"
+    ],
+    "explanation": "花火（はなび）: fuochi d’artificio. 花 (fiore) + 火 (fuoco): fiori di fuoco nel cielo. 火 qui diventa び.",
+    "requirements": [
+      "Riconoscere i kanji dentro parole complete."
+    ]
+  },
+  {
+    "id": "dojo-compound-8",
+    "category": "kanji",
+    "game": "composti",
+    "answer": "休日",
+    "reading": "きゅうじつ",
+    "meaning": "giorno di riposo",
+    "hint": "休 (riposo) + 日 (giorno): un giorno per riposare.",
+    "prompt": "Componi la parola che significa «giorno di riposo».",
+    "options": [
+      "休日",
+      "入口",
+      "外国",
+      "日本"
+    ],
+    "explanation": "休日（きゅうじつ）: giorno di riposo. 休 (riposo) + 日 (giorno): un giorno per riposare.",
+    "requirements": [
+      "Riconoscere i kanji dentro parole complete."
+    ]
+  },
+  {
+    "id": "dojo-compound-9",
+    "category": "kanji",
+    "game": "composti",
+    "answer": "毎日",
+    "reading": "まいにち",
+    "meaning": "ogni giorno",
+    "hint": "毎 (ogni) + 日 (giorno): una piccola abitudine quotidiana.",
+    "prompt": "Componi la parola che significa «ogni giorno».",
+    "options": [
+      "毎日",
+      "出口",
+      "会社",
+      "学校"
+    ],
+    "explanation": "毎日（まいにち）: ogni giorno. 毎 (ogni) + 日 (giorno): una piccola abitudine quotidiana.",
+    "requirements": [
+      "Riconoscere i kanji dentro parole complete."
+    ]
+  },
+  {
+    "id": "dojo-compound-10",
+    "category": "kanji",
+    "game": "composti",
+    "answer": "来月",
+    "reading": "らいげつ",
+    "meaning": "mese prossimo",
+    "hint": "来 (venire) + 月 (mese): il mese che viene.",
+    "prompt": "Componi la parola che significa «mese prossimo».",
+    "options": [
+      "来月",
+      "人口",
+      "名前",
+      "先生"
+    ],
+    "explanation": "来月（らいげつ）: mese prossimo. 来 (venire) + 月 (mese): il mese che viene.",
+    "requirements": [
+      "Riconoscere i kanji dentro parole complete."
+    ]
+  },
+  {
+    "id": "dojo-compound-11",
+    "category": "kanji",
+    "game": "composti",
+    "answer": "来年",
+    "reading": "らいねん",
+    "meaning": "anno prossimo",
+    "hint": "来 (venire) + 年 (anno): l’anno che viene.",
+    "prompt": "Componi la parola che significa «anno prossimo».",
+    "options": [
+      "来年",
+      "天気",
+      "新聞",
+      "学生"
+    ],
+    "explanation": "来年（らいねん）: anno prossimo. 来 (venire) + 年 (anno): l’anno che viene.",
+    "requirements": [
+      "Riconoscere i kanji dentro parole complete."
+    ]
+  },
+  {
+    "id": "dojo-compound-12",
+    "category": "kanji",
+    "game": "composti",
+    "answer": "今年",
+    "reading": "ことし",
+    "meaning": "quest’anno",
+    "hint": "今 (ora) + 年 (anno). La parola intera si legge ことし: non sommare letture isolate.",
+    "prompt": "Componi la parola che significa «quest’anno».",
+    "options": [
+      "今年",
+      "元気",
+      "時間",
+      "電車"
+    ],
+    "explanation": "今年（ことし）: quest’anno. 今 (ora) + 年 (anno). La parola intera si legge ことし: non sommare letture isolate.",
+    "requirements": [
+      "Riconoscere i kanji dentro parole complete."
+    ]
+  },
+  {
+    "id": "dojo-compound-13",
+    "category": "kanji",
+    "game": "composti",
+    "answer": "入口",
+    "reading": "いりぐち",
+    "meaning": "entrata",
+    "hint": "入 (entrare) + 口 (bocca/apertura). 口 diventa ぐち.",
+    "prompt": "Componi la parola che significa «entrata».",
+    "options": [
+      "入口",
+      "大人",
+      "午前",
+      "火山"
+    ],
+    "explanation": "入口（いりぐち）: entrata. 入 (entrare) + 口 (bocca/apertura). 口 diventa ぐち.",
+    "requirements": [
+      "Riconoscere i kanji dentro parole complete."
+    ]
+  },
+  {
+    "id": "dojo-compound-14",
+    "category": "kanji",
+    "game": "composti",
+    "answer": "出口",
+    "reading": "でぐち",
+    "meaning": "uscita",
+    "hint": "出 (uscire) + 口 (apertura): il passaggio per uscire.",
+    "prompt": "Componi la parola che significa «uscita».",
+    "options": [
+      "出口",
+      "外国",
+      "日本",
+      "花火"
+    ],
+    "explanation": "出口（でぐち）: uscita. 出 (uscire) + 口 (apertura): il passaggio per uscire.",
+    "requirements": [
+      "Riconoscere i kanji dentro parole complete."
+    ]
+  },
+  {
+    "id": "dojo-compound-15",
+    "category": "kanji",
+    "game": "composti",
+    "answer": "人口",
+    "reading": "じんこう",
+    "meaning": "popolazione",
+    "hint": "人 (persone) + 口 (bocche): immagina di contare tutte le persone della città.",
+    "prompt": "Componi la parola che significa «popolazione».",
+    "options": [
+      "人口",
+      "会社",
+      "学校",
+      "休日"
+    ],
+    "explanation": "人口（じんこう）: popolazione. 人 (persone) + 口 (bocche): immagina di contare tutte le persone della città.",
+    "requirements": [
+      "Riconoscere i kanji dentro parole complete."
+    ]
+  },
+  {
+    "id": "dojo-compound-16",
+    "category": "kanji",
+    "game": "composti",
+    "answer": "天気",
+    "reading": "てんき",
+    "meaning": "tempo atmosferico",
+    "hint": "天 (cielo) + 気 (energia): guarda il cielo per sapere che tempo fa.",
+    "prompt": "Componi la parola che significa «tempo atmosferico».",
+    "options": [
+      "天気",
+      "名前",
+      "先生",
+      "毎日"
+    ],
+    "explanation": "天気（てんき）: tempo atmosferico. 天 (cielo) + 気 (energia): guarda il cielo per sapere che tempo fa.",
+    "requirements": [
+      "Riconoscere i kanji dentro parole complete."
+    ]
+  },
+  {
+    "id": "dojo-compound-17",
+    "category": "kanji",
+    "game": "composti",
+    "answer": "元気",
+    "reading": "げんき",
+    "meaning": "salute ed energia",
+    "hint": "元 (origine) + 気 (energia): l’energia che ti fa stare bene.",
+    "prompt": "Componi la parola che significa «salute ed energia».",
+    "options": [
+      "元気",
+      "新聞",
+      "学生",
+      "来月"
+    ],
+    "explanation": "元気（げんき）: salute ed energia. 元 (origine) + 気 (energia): l’energia che ti fa stare bene.",
+    "requirements": [
+      "Riconoscere i kanji dentro parole complete."
+    ]
+  },
+  {
+    "id": "dojo-compound-18",
+    "category": "kanji",
+    "game": "composti",
+    "answer": "大人",
+    "reading": "おとな",
+    "meaning": "adulto",
+    "hint": "大 (grande) + 人 (persona). Memorizza おとな come parola intera.",
+    "prompt": "Componi la parola che significa «adulto».",
+    "options": [
+      "大人",
+      "時間",
+      "電車",
+      "来年"
+    ],
+    "explanation": "大人（おとな）: adulto. 大 (grande) + 人 (persona). Memorizza おとな come parola intera.",
+    "requirements": [
+      "Riconoscere i kanji dentro parole complete."
+    ]
+  },
+  {
+    "id": "dojo-compound-19",
+    "category": "kanji",
+    "game": "composti",
+    "answer": "外国",
+    "reading": "がいこく",
+    "meaning": "paese straniero",
+    "hint": "外 (fuori) + 国 (paese): un paese oltre il proprio.",
+    "prompt": "Componi la parola che significa «paese straniero».",
+    "options": [
+      "外国",
+      "午前",
+      "火山",
+      "今年"
+    ],
+    "explanation": "外国（がいこく）: paese straniero. 外 (fuori) + 国 (paese): un paese oltre il proprio.",
+    "requirements": [
+      "Riconoscere i kanji dentro parole complete."
+    ]
+  },
+  {
+    "id": "dojo-compound-20",
+    "category": "kanji",
+    "game": "composti",
+    "answer": "会社",
+    "reading": "かいしゃ",
+    "meaning": "azienda",
+    "hint": "会 (incontro) + 社 (società): persone che lavorano insieme.",
+    "prompt": "Componi la parola che significa «azienda».",
+    "options": [
+      "会社",
+      "日本",
+      "花火",
+      "入口"
+    ],
+    "explanation": "会社（かいしゃ）: azienda. 会 (incontro) + 社 (società): persone che lavorano insieme.",
+    "requirements": [
+      "Riconoscere i kanji dentro parole complete."
+    ]
+  },
+  {
+    "id": "dojo-compound-21",
+    "category": "kanji",
+    "game": "composti",
+    "answer": "名前",
+    "reading": "なまえ",
+    "meaning": "nome",
+    "hint": "名 (nome) + 前 (davanti): immagina il tuo nome sul cartellino davanti a te.",
+    "prompt": "Componi la parola che significa «nome».",
+    "options": [
+      "名前",
+      "学校",
+      "休日",
+      "出口"
+    ],
+    "explanation": "名前（なまえ）: nome. 名 (nome) + 前 (davanti): immagina il tuo nome sul cartellino davanti a te.",
+    "requirements": [
+      "Riconoscere i kanji dentro parole complete."
+    ]
+  },
+  {
+    "id": "dojo-compound-22",
+    "category": "kanji",
+    "game": "composti",
+    "answer": "新聞",
+    "reading": "しんぶん",
+    "meaning": "giornale",
+    "hint": "新 (nuovo) + 聞 (ascoltare): le notizie nuove che arrivano ogni giorno.",
+    "prompt": "Componi la parola che significa «giornale».",
+    "options": [
+      "新聞",
+      "先生",
+      "毎日",
+      "人口"
+    ],
+    "explanation": "新聞（しんぶん）: giornale. 新 (nuovo) + 聞 (ascoltare): le notizie nuove che arrivano ogni giorno.",
+    "requirements": [
+      "Riconoscere i kanji dentro parole complete."
+    ]
+  },
+  {
+    "id": "dojo-compound-23",
+    "category": "kanji",
+    "game": "composti",
+    "answer": "時間",
+    "reading": "じかん",
+    "meaning": "tempo / durata",
+    "hint": "時 (tempo) + 間 (intervallo): il tempo fra due momenti.",
+    "prompt": "Componi la parola che significa «tempo / durata».",
+    "options": [
+      "時間",
+      "学生",
+      "来月",
+      "天気"
+    ],
+    "explanation": "時間（じかん）: tempo / durata. 時 (tempo) + 間 (intervallo): il tempo fra due momenti.",
+    "requirements": [
+      "Riconoscere i kanji dentro parole complete."
+    ]
+  },
+  {
+    "id": "dojo-compound-24",
+    "category": "kanji",
+    "game": "composti",
+    "answer": "午前",
+    "reading": "ごぜん",
+    "meaning": "mattina / prima di mezzogiorno",
+    "hint": "午 (mezzogiorno) + 前 (prima): le ore prima di mezzogiorno.",
+    "prompt": "Componi la parola che significa «mattina / prima di mezzogiorno».",
+    "options": [
+      "午前",
+      "電車",
+      "来年",
+      "元気"
+    ],
+    "explanation": "午前（ごぜん）: mattina / prima di mezzogiorno. 午 (mezzogiorno) + 前 (prima): le ore prima di mezzogiorno.",
+    "requirements": [
+      "Riconoscere i kanji dentro parole complete."
+    ]
+  },
+  {
+    "id": "dojo-particle-1",
+    "category": "grammatica",
+    "game": "particelle",
+    "sentence": "駅【　】友だちを待ちます。",
+    "answer": "で",
+    "options": [
+      "で",
+      "に",
+      "へ",
+      "の"
+    ],
+    "translation": "Aspetto un amico alla stazione.",
+    "topic": "Luogo dell’azione",
+    "prompt": "Completa: 駅【　】友だちを待ちます。\nAspetto un amico alla stazione.",
+    "explanation": "で marca il luogo dell’azione 待つ; non il luogo di esistenza.",
+    "requirements": [
+      "Luogo dell’azione"
+    ]
+  },
+  {
+    "id": "dojo-particle-2",
+    "category": "grammatica",
+    "game": "particelle",
+    "sentence": "机の上【　】本があります。",
+    "answer": "に",
+    "options": [
+      "に",
+      "で",
+      "を",
+      "と"
+    ],
+    "translation": "Sulla scrivania c’è un libro.",
+    "topic": "Luogo di esistenza",
+    "prompt": "Completa: 机の上【　】本があります。\nSulla scrivania c’è un libro.",
+    "explanation": "に marca il luogo di esistenza con あります.",
+    "requirements": [
+      "Luogo di esistenza"
+    ]
+  },
+  {
+    "id": "dojo-particle-3",
+    "category": "grammatica",
+    "game": "particelle",
+    "sentence": "私は毎朝パン【　】食べます。",
+    "answer": "を",
+    "options": [
+      "を",
+      "に",
+      "で",
+      "へ"
+    ],
+    "translation": "Mangio pane ogni mattina.",
+    "topic": "Oggetto",
+    "prompt": "Completa: 私は毎朝パン【　】食べます。\nMangio pane ogni mattina.",
+    "explanation": "を marca l’oggetto di 食べる: ciò che si mangia.",
+    "requirements": [
+      "Oggetto"
+    ]
+  },
+  {
+    "id": "dojo-particle-4",
+    "category": "grammatica",
+    "game": "particelle",
+    "sentence": "田中さん【　】会いました。",
+    "answer": "に",
+    "options": [
+      "に",
+      "を",
+      "で",
+      "の"
+    ],
+    "translation": "Ho incontrato Tanaka.",
+    "topic": "Verbo e particella",
+    "prompt": "Completa: 田中さん【　】会いました。\nHo incontrato Tanaka.",
+    "explanation": "会う usa に per la persona incontrata.",
+    "requirements": [
+      "Verbo e particella"
+    ]
+  },
+  {
+    "id": "dojo-particle-5",
+    "category": "grammatica",
+    "game": "particelle",
+    "sentence": "電車【　】学校へ行きます。",
+    "answer": "で",
+    "options": [
+      "で",
+      "を",
+      "の",
+      "が"
+    ],
+    "translation": "Vado a scuola in treno.",
+    "topic": "Mezzo",
+    "prompt": "Completa: 電車【　】学校へ行きます。\nVado a scuola in treno.",
+    "explanation": "で indica il mezzo di trasporto.",
+    "requirements": [
+      "Mezzo"
+    ]
+  },
+  {
+    "id": "dojo-particle-6",
+    "category": "grammatica",
+    "game": "particelle",
+    "sentence": "七時【　】起きます。",
+    "answer": "に",
+    "options": [
+      "に",
+      "で",
+      "を",
+      "と"
+    ],
+    "translation": "Mi alzo alle sette.",
+    "topic": "Orario",
+    "prompt": "Completa: 七時【　】起きます。\nMi alzo alle sette.",
+    "explanation": "に marca un orario preciso.",
+    "requirements": [
+      "Orario"
+    ]
+  },
+  {
+    "id": "dojo-particle-7",
+    "category": "grammatica",
+    "game": "particelle",
+    "sentence": "家【　】出ます。",
+    "answer": "を",
+    "options": [
+      "を",
+      "が",
+      "で",
+      "と"
+    ],
+    "translation": "Esco di casa.",
+    "topic": "Partenza",
+    "prompt": "Completa: 家【　】出ます。\nEsco di casa.",
+    "explanation": "Con 出る, を può indicare il luogo che si lascia.",
+    "requirements": [
+      "Partenza"
+    ]
+  },
+  {
+    "id": "dojo-particle-8",
+    "category": "grammatica",
+    "game": "particelle",
+    "sentence": "友だち【　】映画を見ます。",
+    "answer": "と",
+    "options": [
+      "と",
+      "が",
+      "へ",
+      "の"
+    ],
+    "translation": "Guardo un film insieme a un amico.",
+    "topic": "Compagnia",
+    "prompt": "Completa: 友だち【　】映画を見ます。\nGuardo un film insieme a un amico.",
+    "explanation": "と marca la persona con cui si fa qualcosa.",
+    "requirements": [
+      "Compagnia"
+    ]
+  },
+  {
+    "id": "dojo-particle-9",
+    "category": "grammatica",
+    "game": "particelle",
+    "sentence": "これは私【　】本です。",
+    "answer": "の",
+    "options": [
+      "の",
+      "を",
+      "へ",
+      "で"
+    ],
+    "translation": "Questo è il mio libro.",
+    "topic": "Possesso",
+    "prompt": "Completa: これは私【　】本です。\nQuesto è il mio libro.",
+    "explanation": "の collega il possessore al nome.",
+    "requirements": [
+      "Possesso"
+    ]
+  },
+  {
+    "id": "dojo-particle-10",
+    "category": "grammatica",
+    "game": "particelle",
+    "sentence": "朝から夜【　】働きます。",
+    "answer": "まで",
+    "options": [
+      "まで",
+      "から",
+      "だけ",
+      "より"
+    ],
+    "translation": "Lavoro dalla mattina fino alla sera.",
+    "topic": "Limite temporale",
+    "prompt": "Completa: 朝から夜【　】働きます。\nLavoro dalla mattina fino alla sera.",
+    "explanation": "から indica l’inizio e まで la fine dell’intervallo.",
+    "requirements": [
+      "Limite temporale"
+    ]
+  },
+  {
+    "id": "dojo-particle-11",
+    "category": "grammatica",
+    "game": "particelle",
+    "sentence": "東京【　】大阪まで行きます。",
+    "answer": "から",
+    "options": [
+      "から",
+      "まで",
+      "だけ",
+      "より"
+    ],
+    "translation": "Vado da Tokyo fino a Osaka.",
+    "topic": "Origine",
+    "prompt": "Completa: 東京【　】大阪まで行きます。\nVado da Tokyo fino a Osaka.",
+    "explanation": "から marca il punto iniziale; まで quello finale.",
+    "requirements": [
+      "Origine"
+    ]
+  },
+  {
+    "id": "dojo-particle-12",
+    "category": "grammatica",
+    "game": "particelle",
+    "sentence": "私は学生です。妹【　】学生です。",
+    "answer": "も",
+    "options": [
+      "も",
+      "を",
+      "へ",
+      "で"
+    ],
+    "translation": "Sono studente. Anche mia sorella lo è.",
+    "topic": "Aggiunta",
+    "prompt": "Completa: 私は学生です。妹【　】学生です。\nSono studente. Anche mia sorella lo è.",
+    "explanation": "も significa anche e si sostituisce a は in questo contesto.",
+    "requirements": [
+      "Aggiunta"
+    ]
+  },
+  {
+    "id": "dojo-particle-13",
+    "category": "grammatica",
+    "game": "particelle",
+    "sentence": "水を一杯【　】飲みました。",
+    "answer": "だけ",
+    "options": [
+      "だけ",
+      "から",
+      "まで",
+      "より"
+    ],
+    "translation": "Ho bevuto soltanto un bicchiere d’acqua.",
+    "topic": "Limitazione",
+    "prompt": "Completa: 水を一杯【　】飲みました。\nHo bevuto soltanto un bicchiere d’acqua.",
+    "explanation": "だけ limita la quantità: soltanto uno.",
+    "requirements": [
+      "Limitazione"
+    ]
+  },
+  {
+    "id": "dojo-particle-14",
+    "category": "grammatica",
+    "game": "particelle",
+    "sentence": "日本語【　】手紙を書きます。",
+    "answer": "で",
+    "options": [
+      "で",
+      "を",
+      "が",
+      "へ"
+    ],
+    "translation": "Scrivo una lettera in giapponese.",
+    "topic": "Lingua e strumento",
+    "prompt": "Completa: 日本語【　】手紙を書きます。\nScrivo una lettera in giapponese.",
+    "explanation": "で indica la lingua o lo strumento impiegato.",
+    "requirements": [
+      "Lingua e strumento"
+    ]
+  },
+  {
+    "id": "dojo-particle-15",
+    "category": "grammatica",
+    "game": "particelle",
+    "sentence": "母【　】花をあげます。",
+    "answer": "に",
+    "options": [
+      "に",
+      "を",
+      "で",
+      "が"
+    ],
+    "translation": "Regalo dei fiori a mia madre.",
+    "topic": "Destinatario",
+    "prompt": "Completa: 母【　】花をあげます。\nRegalo dei fiori a mia madre.",
+    "explanation": "に marca il destinatario di あげる.",
+    "requirements": [
+      "Destinatario"
+    ]
+  },
+  {
+    "id": "dojo-particle-16",
+    "category": "grammatica",
+    "game": "particelle",
+    "sentence": "図書館へ本を借り【　】行きます。",
+    "answer": "に",
+    "options": [
+      "に",
+      "を",
+      "と",
+      "が"
+    ],
+    "translation": "Vado in biblioteca a prendere un libro in prestito.",
+    "topic": "Scopo",
+    "prompt": "Completa: 図書館へ本を借り【　】行きます。\nVado in biblioteca a prendere un libro in prestito.",
+    "explanation": "Radice della forma ます + に行く esprime lo scopo: 借ります → 借りに.",
+    "requirements": [
+      "Scopo"
+    ]
+  },
+  {
+    "id": "dojo-particle-17",
+    "category": "grammatica",
+    "game": "particelle",
+    "sentence": "どこ【　】行きません。",
+    "answer": "にも",
+    "options": [
+      "にも",
+      "をも",
+      "でも",
+      "のも"
+    ],
+    "translation": "Non vado da nessuna parte.",
+    "topic": "Interrogativo e negazione",
+    "prompt": "Completa: どこ【　】行きません。\nNon vado da nessuna parte.",
+    "explanation": "どこにも + negativo significa da nessuna parte.",
+    "requirements": [
+      "Interrogativo e negazione"
+    ]
+  },
+  {
+    "id": "dojo-particle-18",
+    "category": "grammatica",
+    "game": "particelle",
+    "sentence": "このりんごは三つ【　】百円です。",
+    "answer": "で",
+    "options": [
+      "で",
+      "を",
+      "に",
+      "が"
+    ],
+    "translation": "Queste mele costano cento yen per tre.",
+    "topic": "Prezzo totale",
+    "prompt": "Completa: このりんごは三つ【　】百円です。\nQueste mele costano cento yen per tre.",
+    "explanation": "Quantità + で + prezzo indica il prezzo complessivo.",
+    "requirements": [
+      "Prezzo totale"
+    ]
+  },
+  {
+    "id": "dojo-particle-19",
+    "category": "grammatica",
+    "game": "particelle",
+    "sentence": "寒いです【　】、窓を閉めます。",
+    "answer": "から",
+    "options": [
+      "から",
+      "まで",
+      "より",
+      "だけ"
+    ],
+    "translation": "Poiché fa freddo, chiudo la finestra.",
+    "topic": "Causa",
+    "prompt": "Completa: 寒いです【　】、窓を閉めます。\nPoiché fa freddo, chiudo la finestra.",
+    "explanation": "から dopo una frase introduce la causa.",
+    "requirements": [
+      "Causa"
+    ]
+  },
+  {
+    "id": "dojo-particle-20",
+    "category": "grammatica",
+    "game": "particelle",
+    "sentence": "日曜日【　】勉強しません。月曜日は勉強します。",
+    "answer": "は",
+    "options": [
+      "は",
+      "を",
+      "で",
+      "と"
+    ],
+    "translation": "La domenica non studio; il lunedì sì.",
+    "topic": "Contrasto",
+    "prompt": "Completa: 日曜日【　】勉強しません。月曜日は勉強します。\nLa domenica non studio; il lunedì sì.",
+    "explanation": "は mette a contrasto due giorni.",
+    "requirements": [
+      "Contrasto"
+    ]
+  },
+  {
+    "id": "dojo-particle-21",
+    "category": "grammatica",
+    "game": "particelle",
+    "sentence": "これは何【　】。",
+    "answer": "ですか",
+    "options": [
+      "ですか",
+      "でした",
+      "では",
+      "をです"
+    ],
+    "translation": "Che cos’è questo?",
+    "topic": "Domanda cortese",
+    "prompt": "Completa: これは何【　】。\nChe cos’è questo?",
+    "explanation": "ですか forma una domanda cortese dopo un nome o un interrogativo.",
+    "requirements": [
+      "Domanda cortese"
+    ]
+  },
+  {
+    "id": "dojo-particle-22",
+    "category": "grammatica",
+    "game": "particelle",
+    "sentence": "パン【　】牛乳などを買います。",
+    "answer": "や",
+    "options": [
+      "や",
+      "の",
+      "へ",
+      "に"
+    ],
+    "translation": "Compro pane, latte e altre cose.",
+    "topic": "Elenco aperto",
+    "prompt": "Completa: パン【　】牛乳などを買います。\nCompro pane, latte e altre cose.",
+    "explanation": "や…など elenca esempi senza chiudere la lista.",
+    "requirements": [
+      "Elenco aperto"
+    ]
+  },
+  {
+    "id": "dojo-particle-23",
+    "category": "grammatica",
+    "game": "particelle",
+    "sentence": "コーヒー【　】お茶、どちらが好きですか。",
+    "answer": "と",
+    "options": [
+      "と",
+      "を",
+      "が",
+      "の"
+    ],
+    "translation": "Fra caffè e tè, quale preferisci?",
+    "topic": "Scelta fra due",
+    "prompt": "Completa: コーヒー【　】お茶、どちらが好きですか。\nFra caffè e tè, quale preferisci?",
+    "explanation": "XとY、どちらが… chiede di scegliere fra due elementi.",
+    "requirements": [
+      "Scelta fra due"
+    ]
+  },
+  {
+    "id": "dojo-particle-24",
+    "category": "grammatica",
+    "game": "particelle",
+    "sentence": "私【　】作ったケーキです。",
+    "answer": "が",
+    "options": [
+      "が",
+      "を",
+      "へ",
+      "で"
+    ],
+    "translation": "È una torta che ho fatto io.",
+    "topic": "Soggetto nella relativa",
+    "prompt": "Completa: 私【　】作ったケーキです。\nÈ una torta che ho fatto io.",
+    "explanation": "が marca il soggetto della frase relativa 私が作った.",
+    "requirements": [
+      "Soggetto nella relativa"
+    ]
+  },
+  {
+    "id": "dojo-form-1",
+    "category": "grammatica",
+    "game": "forme",
+    "word": "書く",
+    "form": "forma て",
+    "answer": "書いて",
+    "options": [
+      "書いて",
+      "書って",
+      "書きて",
+      "書んで"
+    ],
+    "rule": "く → いて",
+    "prompt": "Trasforma 「書く」: forma て.",
+    "explanation": "く → いて: 書く → 書いて。",
+    "requirements": [
+      "く → いて"
+    ]
+  },
+  {
+    "id": "dojo-form-2",
+    "category": "grammatica",
+    "game": "forme",
+    "word": "聞く",
+    "form": "forma て",
+    "answer": "聞いて",
+    "options": [
+      "聞いて",
+      "聞って",
+      "聞きて",
+      "聞んで"
+    ],
+    "rule": "く → いて",
+    "prompt": "Trasforma 「聞く」: forma て.",
+    "explanation": "Anche 聞く appartiene ai verbi in く: 聞いて。",
+    "requirements": [
+      "く → いて"
+    ]
+  },
+  {
+    "id": "dojo-form-3",
+    "category": "grammatica",
+    "game": "forme",
+    "word": "泳ぐ",
+    "form": "forma て",
+    "answer": "泳いで",
+    "options": [
+      "泳いで",
+      "泳いて",
+      "泳んで",
+      "泳ぎて"
+    ],
+    "rule": "ぐ → いで",
+    "prompt": "Trasforma 「泳ぐ」: forma て.",
+    "explanation": "ぐ → いで, con il suono sonorizzato: 泳いで。",
+    "requirements": [
+      "ぐ → いで"
+    ]
+  },
+  {
+    "id": "dojo-form-4",
+    "category": "grammatica",
+    "game": "forme",
+    "word": "話す",
+    "form": "forma て",
+    "answer": "話して",
+    "options": [
+      "話して",
+      "話って",
+      "話しで",
+      "話いて"
+    ],
+    "rule": "す → して",
+    "prompt": "Trasforma 「話す」: forma て.",
+    "explanation": "す → して: 話して。",
+    "requirements": [
+      "す → して"
+    ]
+  },
+  {
+    "id": "dojo-form-5",
+    "category": "grammatica",
+    "game": "forme",
+    "word": "待つ",
+    "form": "forma て",
+    "answer": "待って",
+    "options": [
+      "待って",
+      "待いて",
+      "待ちて",
+      "待んで"
+    ],
+    "rule": "つ → って",
+    "prompt": "Trasforma 「待つ」: forma て.",
+    "explanation": "う・つ・る dei verbi godan → って: 待って。",
+    "requirements": [
+      "つ → って"
+    ]
+  },
+  {
+    "id": "dojo-form-6",
+    "category": "grammatica",
+    "game": "forme",
+    "word": "買う",
+    "form": "forma て",
+    "answer": "買って",
+    "options": [
+      "買って",
+      "買いて",
+      "買うて",
+      "買んで"
+    ],
+    "rule": "う → って",
+    "prompt": "Trasforma 「買う」: forma て.",
+    "explanation": "う dei verbi godan → って: 買って。",
+    "requirements": [
+      "う → って"
+    ]
+  },
+  {
+    "id": "dojo-form-7",
+    "category": "grammatica",
+    "game": "forme",
+    "word": "帰る",
+    "form": "forma て",
+    "answer": "帰って",
+    "options": [
+      "帰って",
+      "帰て",
+      "帰りて",
+      "帰んで"
+    ],
+    "rule": "る godan → って",
+    "prompt": "Trasforma 「帰る」: forma て.",
+    "explanation": "帰る è godan, anche se termina in る: 帰って。",
+    "requirements": [
+      "る godan → って"
+    ]
+  },
+  {
+    "id": "dojo-form-8",
+    "category": "grammatica",
+    "game": "forme",
+    "word": "飲む",
+    "form": "forma て",
+    "answer": "飲んで",
+    "options": [
+      "飲んで",
+      "飲って",
+      "飲みて",
+      "飲いて"
+    ],
+    "rule": "む → んで",
+    "prompt": "Trasforma 「飲む」: forma て.",
+    "explanation": "む・ぶ・ぬ → んで: 飲んで。",
+    "requirements": [
+      "む → んで"
+    ]
+  },
+  {
+    "id": "dojo-form-9",
+    "category": "grammatica",
+    "game": "forme",
+    "word": "遊ぶ",
+    "form": "forma て",
+    "answer": "遊んで",
+    "options": [
+      "遊んで",
+      "遊って",
+      "遊びて",
+      "遊いて"
+    ],
+    "rule": "ぶ → んで",
+    "prompt": "Trasforma 「遊ぶ」: forma て.",
+    "explanation": "ぶ → んで: 遊んで。",
+    "requirements": [
+      "ぶ → んで"
+    ]
+  },
+  {
+    "id": "dojo-form-10",
+    "category": "grammatica",
+    "game": "forme",
+    "word": "読む",
+    "form": "forma て",
+    "answer": "読んで",
+    "options": [
+      "読んで",
+      "読って",
+      "読みて",
+      "読いて"
+    ],
+    "rule": "む → んで",
+    "prompt": "Trasforma 「読む」: forma て.",
+    "explanation": "む → んで: 読んで。",
+    "requirements": [
+      "む → んで"
+    ]
+  },
+  {
+    "id": "dojo-form-11",
+    "category": "grammatica",
+    "game": "forme",
+    "word": "行く",
+    "form": "forma て",
+    "answer": "行って",
+    "options": [
+      "行って",
+      "行いて",
+      "行きて",
+      "行んで"
+    ],
+    "rule": "行く: eccezione",
+    "prompt": "Trasforma 「行く」: forma て.",
+    "explanation": "Eccezione importante: 行く → 行って, non 行いて。",
+    "requirements": [
+      "行く: eccezione"
+    ]
+  },
+  {
+    "id": "dojo-form-12",
+    "category": "grammatica",
+    "game": "forme",
+    "word": "食べる",
+    "form": "forma て",
+    "answer": "食べて",
+    "options": [
+      "食べて",
+      "食べって",
+      "食べりて",
+      "食べんで"
+    ],
+    "rule": "Ichidan: る → て",
+    "prompt": "Trasforma 「食べる」: forma て.",
+    "explanation": "食べる è ichidan: togli る e aggiungi て。",
+    "requirements": [
+      "Ichidan: る → て"
+    ]
+  },
+  {
+    "id": "dojo-form-13",
+    "category": "grammatica",
+    "game": "forme",
+    "word": "見る",
+    "form": "forma て",
+    "answer": "見て",
+    "options": [
+      "見て",
+      "見って",
+      "見りて",
+      "見いて"
+    ],
+    "rule": "Ichidan: る → て",
+    "prompt": "Trasforma 「見る」: forma て.",
+    "explanation": "見る è ichidan: togli る e aggiungi て。",
+    "requirements": [
+      "Ichidan: る → て"
+    ]
+  },
+  {
+    "id": "dojo-form-14",
+    "category": "grammatica",
+    "game": "forme",
+    "word": "する",
+    "form": "forma て",
+    "answer": "して",
+    "options": [
+      "して",
+      "すって",
+      "するて",
+      "しんで"
+    ],
+    "rule": "する → して",
+    "prompt": "Trasforma 「する」: forma て.",
+    "explanation": "する è irregolare: して。",
+    "requirements": [
+      "する → して"
+    ]
+  },
+  {
+    "id": "dojo-form-15",
+    "category": "grammatica",
+    "game": "forme",
+    "word": "来る",
+    "form": "forma て",
+    "answer": "来て",
+    "options": [
+      "来て",
+      "来って",
+      "来りて",
+      "来んで"
+    ],
+    "rule": "来る → 来て（きて）",
+    "prompt": "Trasforma 「来る」: forma て.",
+    "explanation": "来る → 来て, letto きて。 Il kanji resta 来 e cambia la lettura.",
+    "requirements": [
+      "来る → 来て（きて）"
+    ]
+  },
+  {
+    "id": "dojo-form-16",
+    "category": "grammatica",
+    "game": "forme",
+    "word": "買う",
+    "form": "forma ない",
+    "answer": "買わない",
+    "options": [
+      "買わない",
+      "買あない",
+      "買いない",
+      "買うない"
+    ],
+    "rule": "う → わない",
+    "prompt": "Trasforma 「買う」: forma ない.",
+    "explanation": "Per i godan in う, la forma negativa usa わ: 買わない。",
+    "requirements": [
+      "う → わない"
+    ]
+  },
+  {
+    "id": "dojo-form-17",
+    "category": "grammatica",
+    "game": "forme",
+    "word": "書く",
+    "form": "forma ない",
+    "answer": "書かない",
+    "options": [
+      "書かない",
+      "書きない",
+      "書くない",
+      "書けない"
+    ],
+    "rule": "く → かない",
+    "prompt": "Trasforma 「書く」: forma ない.",
+    "explanation": "La finale godan passa alla riga あ: く → かない。 書けない è invece potenziale negativo.",
+    "requirements": [
+      "く → かない"
+    ]
+  },
+  {
+    "id": "dojo-form-18",
+    "category": "grammatica",
+    "game": "forme",
+    "word": "食べる",
+    "form": "forma ない",
+    "answer": "食べない",
+    "options": [
+      "食べない",
+      "食べらない",
+      "食べるない",
+      "食べりない"
+    ],
+    "rule": "Ichidan: る → ない",
+    "prompt": "Trasforma 「食べる」: forma ない.",
+    "explanation": "Ichidan: togli る e aggiungi ない。",
+    "requirements": [
+      "Ichidan: る → ない"
+    ]
+  },
+  {
+    "id": "dojo-form-19",
+    "category": "grammatica",
+    "game": "forme",
+    "word": "する",
+    "form": "forma ない",
+    "answer": "しない",
+    "options": [
+      "しない",
+      "すない",
+      "さない",
+      "するない"
+    ],
+    "rule": "する → しない",
+    "prompt": "Trasforma 「する」: forma ない.",
+    "explanation": "する ha il negativo irregolare しない。",
+    "requirements": [
+      "する → しない"
+    ]
+  },
+  {
+    "id": "dojo-form-20",
+    "category": "grammatica",
+    "game": "forme",
+    "word": "来る",
+    "form": "forma ない",
+    "answer": "来ない",
+    "options": [
+      "来ない",
+      "来らない",
+      "来るない",
+      "来りない"
+    ],
+    "rule": "来る → 来ない（こない）",
+    "prompt": "Trasforma 「来る」: forma ない.",
+    "explanation": "来る → 来ない, letto こない。",
+    "requirements": [
+      "来る → 来ない（こない）"
+    ]
+  },
+  {
+    "id": "dojo-form-21",
+    "category": "grammatica",
+    "game": "forme",
+    "word": "飲む",
+    "form": "passato piano",
+    "answer": "飲んだ",
+    "options": [
+      "飲んだ",
+      "飲った",
+      "飲みた",
+      "飲いた"
+    ],
+    "rule": "む → んだ",
+    "prompt": "Trasforma 「飲む」: passato piano.",
+    "explanation": "La trasformazione corrisponde alla forma て: 飲んで → 飲んだ。",
+    "requirements": [
+      "む → んだ"
+    ]
+  },
+  {
+    "id": "dojo-form-22",
+    "category": "grammatica",
+    "game": "forme",
+    "word": "行く",
+    "form": "passato piano",
+    "answer": "行った",
+    "options": [
+      "行った",
+      "行いた",
+      "行きた",
+      "行んだ"
+    ],
+    "rule": "行く → 行った",
+    "prompt": "Trasforma 「行く」: passato piano.",
+    "explanation": "Come la forma て, 行く ha il passato eccezionale 行った。",
+    "requirements": [
+      "行く → 行った"
+    ]
+  },
+  {
+    "id": "dojo-form-23",
+    "category": "grammatica",
+    "game": "forme",
+    "word": "高い",
+    "form": "passato cortese",
+    "answer": "高かったです",
+    "options": [
+      "高かったです",
+      "高いでした",
+      "高くでした",
+      "高かったでした"
+    ],
+    "rule": "い → かったです",
+    "prompt": "Trasforma 「高い」: passato cortese.",
+    "explanation": "Aggettivo in い: togli い e aggiungi かったです。",
+    "requirements": [
+      "い → かったです"
+    ]
+  },
+  {
+    "id": "dojo-form-24",
+    "category": "grammatica",
+    "game": "forme",
+    "word": "静か",
+    "form": "negativo cortese",
+    "answer": "静かじゃありません",
+    "options": [
+      "静かじゃありません",
+      "静かくないです",
+      "静かないです",
+      "静かいません"
+    ],
+    "rule": "な: じゃありません",
+    "prompt": "Trasforma 「静か」: negativo cortese.",
+    "explanation": "Aggettivo in な: usa じゃありません (oppure ではありません). Non usare la trasformazione degli aggettivi in い.",
+    "requirements": [
+      "な: じゃありません"
+    ]
+  }
+]

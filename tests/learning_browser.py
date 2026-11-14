@@ -19,7 +19,7 @@ with sync_playwright() as p:
  page.locator('#toggle-translation').click();assert page.locator('#scene-translation').is_visible()
  page.locator('#scene-next').click();assert '2/4' in page.locator('#line-count').inner_text();page.locator('#scene-repeat').click()
  old_audio=page.locator('#scene-audio').element_handle();page.goto(base+'#ufficiali');assert old_audio.evaluate('(a)=>a.paused')
- page.locator('#start-official').click();key={'雨':'あめ','書いて':'かいて','中':'なか','小さい':'ちいさい','火よう日':'かようび','空':'そら','百人':'ひゃくにん','魚':'さかな','半分':'はんぶん','間':'あいだ','三つ':'みっつ','元気':'げんき'}
+ page.locator('#official-section').select_option('readings');page.locator('#official-count').select_option('all');page.locator('#start-official').click();key={'雨':'あめ','書いて':'かいて','中':'なか','小さい':'ちいさい','火よう日':'かようび','空':'そら','百人':'ひゃくにん','魚':'さかな','半分':'はんぶん','間':'あいだ','三つ':'みっつ','元気':'げんき'}
  for i in range(12):
   assert page.locator('.official-source').is_visible();prompt=page.locator('.question').inner_text();word=re.search('「(.+?)」',prompt)[1];answer=key[word]
   texts=page.locator('[data-answer]').all_text_contents();idx=next(j for j,t in enumerate(texts) if t.split('. ',1)[-1].strip()==answer);page.locator('[data-answer]').nth(idx).click();page.locator('#confirm').click();page.locator('#confirm').click()
